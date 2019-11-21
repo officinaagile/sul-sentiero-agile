@@ -1,0 +1,23 @@
+# Wave 0: Transition Team
+
+Inizia la fase di Training della transizione Agile: il primo ciclo di Assessment e Strategy si sono conclusi, abbiamo una foto dell’organizzazione, della sua cultura e storia, dei suoi processi, dei punti di forza e di debolezza.
+Assieme agli sponsor principali è stata definita una prima versione della strategia di agilizzazione: si è deciso chi coinvolgere inizialmente e quali fattori di successo o fallimento dovranno essere monitorati. Siamo pronti ad iniziare il cambiamento e… probabilmente ci troveremo nella fase di incompetenza incosciente.
+
+In questa fase iniziale è importante porre le basi per rispondere alle difficoltà che con estrema probabilità ci troveremo davanti a causa della resistenza al cambiamento.
+L’entità che sta per trasformarsi dovrà affrontare un impegno che potrà risultare faticoso e di non breve durata, di conseguenza sarà importante assicurarsi che i principali sponsor della transizione Agile siano ben consci di cosa li attende e abbiano gli strumenti per poter rispondere alle difficoltà che li attendono.
+
+Prima ancora di iniziare con l’agilizzazione dei team di produzione, è importante quindi che si formi un team di transizione, composto dagli stakeholder sponsor del cambiamento, persone che hanno l’autorevolezza per essere ascoltate e seguite dall’entità. Tanto più la comprensione dei principi e dei valori agili sarà radicata all’interno del Transition Team, quanto più sarà facile rispondere alle difficoltà che il processo di cambiamento ci porrà davanti. Il Transition Team ha bisogno di essere formato accuratamente, con training coaching dedicati; in questa fase possono essere altrettanto importanti attività esperienziali e attività di team building. Una esperimento da valutare può essere un piano di Safari del Transition Team in altre organizzazione, sia per imparare dall’esperienza di chi ha già superato la fase di transizione iniziale, sia per acquisire maggiore fiducia. La composizione del Transition Team è senz’altro un’attività delicata: il team, come ogni team, dovrà acquisire un’amalgama e un affiatamento tali da permettergli una buona performance, dovrà esservi allineamento sulla vision e sui working agreement e la skill matrix del team dovrà riuscire a coprire tutti gli ambiti gestiti dall’entità in transizione.
+
+Il Transition Team, come tutti i team di produzione, seguirà verosimilmente le [fasi di Tuckman](http://infed.org/mobi/bruce-w-tuckman-forming-storming-norming-and-performingin-groups/), con profondità e ampiezza non noti a priori: nel periodo iniziale potrebbe essere importante la presenza assidua di un coach. Se l’entità in transizione copre un’area di processo produttivo particolarmente articolata, come detto in precedenza, sarà opportuno che il Transition Team sia formato in modo da coprire con le sue singole competenze tutte le fasi di quest’area: ogni elemento dovrà sentirsi rappresentato e, cosa ancor più rilevante, l’unione delle competenze e delle esperienze del Transition Team dovranno renderlo cross-funzionale e quanto più possibile autonomo e autorevole nelle sue scelte.
+
+## Tuckman Model
+Il modello di Tuckman è un modello comportamentale relativo a gruppi di persone (team)
+elaborato dallo psicologo Brune Wayne Tuckman nel 1965; non intendiamo dilungarci sulla
+descrizione di questo modello, poiché in rete è possibile trovare materiale a sufficienza per approfondire, ci limiteremo ad una breve descrizione: il modello di Tuckman descrive lo sviluppo delle interazioni all”interno di un gruppo categorizzandolo in quattro fasi
+successive:
+* dapprima il gruppo si dedica alla ricerca dei limiti comportamentali interpersonali e ogni componente del gruppo ’prova’ le relazioni con gli altri componenti; questa fase si chiama **Forming** ed è una fase di pace apparente;
+* nella seconda fase emergono i conflitti e ogni componente del gruppo cerca il proprio ruolo e la propria posizione all’interno del gruppo; da questa ricerca possono nascere dei conflitti e questa fase viene chiamata **Storming**;
+* nella terza fase le singolarità del gruppo si sono assestate, si creano coesione e spirito di gruppo, rispettando ognuno i ruoli degli altri; questa fase è detta **Norming**;
+* infine, nella quarta e ultima fase le singolarità del gruppo partecipano a creare la magia della cooperazione e dell’intelligenza collettiva: il gruppo è flessibile, resiliente e performante, questa fase è chiamata **Performing**.
+
+Anche la quarta fase avrà a sua volta un termine, dovuto a variazioni interne o esterne al gruppo: il ciclo di Tuckman riprenderà dalla prima fase in avanti, con ampiezza e periodo di ogni fase verosimilmente diverse dal ciclo precedente.

@@ -1,0 +1,50 @@
+# Complessità e esperimenti
+
+## Cynefin
+Nella nostra storia incontriamo spesso gli 'esperimenti' e dobbiamo chiarire il perché e il come affrontare questo tema. Di seguito faremo una breve introduzione al Cynefin framework, strumento basilare per leggere con la giusta prospettiva le realtà alle quali far fronte in un processo di agilizzazione.
+Il Cynefin framework è uno strumento inventato da Dave Snowden nel 1999, ampiamente approfondito e utilizzato in vari ambiti e ancora molto attuale; potremmo ovviamente dare molti dettagli su questo strumento, ma, per rispettare lo spirito di questo libro, saremo anche in questo caso estremamente sintetici.
+Il Cynefin framework modella i diversi livelli di complessità dei sistemi, distinguendo ogni livello in base al contesto e al comportamento che meglio si adatta al contesto stesso. Si parla di quattro domini, che guidano il comportamento: l’ovvio, il complicato, il complesso e il caotico.
+Questi quattro domini hanno un livello crescente di impredicibilità e un loro modello di comportamento definito.
+Sistemi che compongono più scenari riconducibili a questi quattro domini si catalogano in un quinto dominio: il disordine, dal quale si esce frammentando il sistema nei suoi scenari ed assegnando ogni scenario ad uno dei domini precedenti.
+
+Possiamo perciò vedere il Cynefin come una spirale: ogni piano della spirale sarà associato ad un dominio, ma l’intero sistema sarà definito dall’unione e dall’interazione di tutti i suoi domini.
+Ad ogni dominio è associato il pattern comportamentale che meglio vi si addice:
+
+Nel dominio dell’Ovvio, il modello comportamentale è sense-categorize-responde, il legame fra causa ed effetto è molto stretto ed evidente, ad ogni azione corrisponde una reazione diretta e si possono definire ed utilizzare delle best practice.
+
+Nel dominio del Complicato, il modello comportamentale è sense-analyze-responde, il legame fra causa ed effetto è ancora decisamente forte, ma non necessariamente evidente: la percezione di questo legame è funzione dal livello di competenza del singolo; ad ogni azione corrisponde una reazione che potrebbe esser distante nel tempo e nello spazio, servono conoscenze specifiche per cogliere questo legame; in questo dominio si utilizzano le good practices, tipicamente un esperto dell’area sarà in grado di risolvere sistematicamente il problema.
+
+Nel dominio del Complesso, il modello comportamentale è probe-sense-responde, i singoli componenti del sistema si influenzano vicendevolmente, ogni azione su una parte del sistema ha ripercussioni sulle altre parti e gli effetti dipendono dalle condizioni specifiche del sistema stesso; in questo dominio si utilizzano le pratiche emergenti, qui è necessario effettuare degli esperimenti, monitorare il comportamento del sistema e iterare, persistendo sull’esperimento e effettuando un pivoting.
+
+Nel dominio del Caotico, il modello comportamentale è act-sense-respond, il legame fra causa e effetto è totalmente impredicibile, l’unica cosa da fare quando ci si trova in questo dominio è uscirne, si deve agire prontamente e decisamente; a posteriori si può cercare di lavorare per decomporre questo dominio o cercare di mitigare il rischio di entrare nuovamente all’interno del dominio del caotico; per far questo si può utilizzare lo story telling.
+Un ottimo articolo in italiano sul Cynefin framework è stato scritto da Giovanni Puliti qualche anno fa: lo potete trovare [QUI](http://www.mokabyte.it/2013/05/managementcomplesso-2/).
+
+## Popcornflow
+Compreso il concetto di complessità, ci è chiaro che la realtà che andiamo ad affrontare necessita di essere trattata empiricamente tramite esperimenti safe to fail monitorati.
+Uno strumento interessante e piuttosto diffuso per sperimentare in modo efficace è il [PopcornFlow di Claudio Perrone](https://popcornflow.com/): uno schema di azioni che hanno l’obiettivo di guidare gli esperimenti affinché si possa scegliere in tempo se proseguire o pivotare e sia relativamente semplice riconoscere quando un esperimento è un successo o un fallimento.
+
+Vediamo insieme come funziona PopcornFlow: l’obiettivo di PopcornFlow è di combattere l’inerzia, abilitare il cambiamento attraverso piccoli e continui esperimenti; il primo principio  di PopcornFlow recita: ”Se il cambiamento è difficile, rendilo continuo” e il modo proposto da questo strumento è una serie di fasi da seguire iterativamente:
+* Problems and Observations: dapprima si sceglie il problema da trattare eleggendo un’opinione condivisa (”Ognuno ha il diritto di esprimere la propria opinione, ma un’opinione condivisa è un fatto”, secondo principio di PopcornFlow).
+* Options: quindi si collezionano delle opzioni che potrebbero trattare e risolvere il problema; in questa fase è fondamentale che ognuno porti liberamente il suo contributo, non ci siano censure e si propongano tutte le opzioni che ci vengono in mente, più o meno sensate.
+* Possible Experiments: le migliori opzioni permetteranno di creare un backlog dei possibili esperimenti; questo backlog è composto da azioni concrete, pratiche, che derivano dalle varie opzioni.
+* Committed: ogni volta che ci impegniamo a mettere in pratica un esperimento, lo descriviamo in un formato ben definito, che prevede:
+ * Action: l’azione concreta dell’esperimento
+ * Reason: il motivo per cui mettiamo in campo questo esperimento
+ * Expectations: le aspettative che abbiamo per questo esperimento
+ * Duration: quanto durerà questo esperimento
+ * Review Date: la data alla quale valuteremo se l’esperimento è andato a buon fine (ha raggiunto le aspettative), o è fallito (non ha raggiunto le aspettative); a questa data decideremo se proseguire l’esperimento, ritenerlo chiuso, o pivotare.
+* Ongoing: gli esperimenti in corso
+* Review: gli esperimenti conclusi, o interrotti, in fase di analisi dei risultati * Next: le prossime azioni legate all’esperimento: continuare con l’esperimento, aggiornando le aspettative e la durata, concludere l’esperimento, introdurre un nuovo esperimento sulla base delle aspettative iniziali o quelle aggiornate
+* Done: gli esperimenti conclusi.
+
+Una consapevolezza che PopcornFlow mira a trasmettere a chi è interessato ad utilizzare questo strumento è che il fallimento (di un esperimento) non è esclusivamente un’eventualità negativa, ma è anche e soprattutto un atto di apprendimento. Il terzo principio di PopcornFlow: ”L’obiettivo non è fallire velocemente e fallire spesso, ma apprendere velocemente e apprendere spesso”.
+
+Improvement Kata
+L’Improvement Kata, teorizzato da Mike Rother nel suo libro ’Toyota Kata’ del 2009, è per l’appunto un kata, ovvero una routine praticata per acquisire un’abilità; in questo caso l’abilità è la mentalità del miglioramento continuo.
+Attraverso il kata, l’abilità viene installata a livello di competenza inconscia e diventa un automatismo della mente (vedi i [4 stadi della competenza](https://en.wikipedia.org/wiki/Four_stages_of_competence)).
+L’improvement kata è uno strumento utilizzato per prendere decisioni, misurarne l’efficacia e iterare tendendo verso una visione all’interno di un sistema complesso. Il pattern degli Improvement Kata prevede cicli iterativi composti da 4 fasi:
+* Definire una vision, chiarendo il problema da risolvere o l’ambito che vogliamo migliorare.
+* Prendere atto delle condizioni attuali, registrandone le metriche in modo riproducibile.
+* Definire le condizioni che vogliamo raggiungere, ovvero qual è il nostro obiettivo per la prossima iterazione; definire chiaramente l’obiettivo, condividerlo in modo trasparente e esprimerlo in modo misurabile aumenta il focus delle persone. In questa fase inizia a chiarirsi il gap fra l’attuale e il desiderato e si evidenziano quindi i primi impedimenti sui quali si dovrà lavorare. * Definire e avviare l’esperimento che, nelle intenzioni, ci porterà nelle condizioni desiderate; in questa fase emergeranno empiricamente i veri ostacoli ci potrebbero impedire di raggiungere l’obiettivo e, di conseguenza, quali ostacoli sarà necessario rimuovere.
+
+Al termine delle 4 fasi si può effettuare una retrospettiva, analizzando il nuovo gap fra l’attuale e il desiderato, valutando cosa ha funzionato e cosa invece può essere migliorato, quali eventi sono accaduti e cosa potrebbe nuovamente accadere e portando queste valutazioni come apprendimento nella prossima iterazione. Nella nuova iterazione viene confermata o modificata la vision, si monitorano nuovamente le condizioni attuali, aggiornandone le metriche, si valuta il gap e definiamo il nuovo obiettivo; infine viene avviato il nuovo esperimento. [QUI](https://www.spreaker.com/user/10553302/improvement-kata) il podcast di Officina Agile sugli Improvement Kata, che potrà darvi molti altri dettagli.

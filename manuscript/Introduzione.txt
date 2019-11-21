@@ -1,15 +1,25 @@
 # Introduzione
 
-L’obiettivo di questo libro è intraprendere insieme al lettore un percorso di comprensionee consapevolezza delle pratiche e del mindset Agile, scegliendo un approccio pratico chepermetta a chi legge di calare nella propria esperienza i contenuti che sta leggendo in questolibro.Lo sviluppo del libro segue un approccio iterativo incrementale, cercando di recepire quantopiù possibile i feedback dei lettori; all’interno del libro vorremo sperimentare: ne consegueche alcune sezioni potranno nascere e morire. Tenendo fisso questo concetto, così comealcune sezioni possono nasce e morire, possono anche essere modificate in modo sostanziale.Quello che riporteremo all’interno di questo libro è frutto della nostra modesta esperienzae dei nostri studi, niente di tutto ciò intende avere un carattere prescrittivo, né vuoleessere una verità assoluta: sappiamo che tutto quello che scriveremo potrà essere soggetto acambiamenti e intendiamo sottolineare che il nostro obiettivo è far evolvere questo libro inbase ai feedback di chiunque voglia leggerlo.Dateci un feedback, ve ne saremo grati!Trovate il link al nostro canale Slack su www.officinaagile.it.
+L’obiettivo di questo libro è intraprendere insieme al lettore un percorso di comprensionee consapevolezza delle pratiche e del mindset Agile, scegliendo un approccio pratico chepermetta a chi legge di calare nella propria esperienza i contenuti che sta leggendo in questolibro.
 
+Lo sviluppo del libro segue un approccio iterativo incrementale, cercando di recepire quanto più possibile i feedback dei lettori; all’interno del libro vorremo sperimentare: ne consegue che alcune sezioni potranno nascere e morire. Tenendo fisso questo concetto, così come alcune sezioni possono nasce e morire, possono anche essere modificate in modo sostanziale.Quello che riporteremo all’interno di questo libro è frutto della nostra modesta esperienza e dei nostri studi, niente di tutto ciò intende avere un carattere prescrittivo, né vuole essere una verità assoluta: sappiamo che tutto quello che scriveremo potrà essere soggetto a cambiamenti e intendiamo sottolineare che il nostro obiettivo è far evolvere questo libro in base ai feedback di chiunque voglia leggerlo.
+
+Dateci un feedback, ve ne saremo grati!Trovate il link al nostro canale Slack su www.officinaagile.it.
 
 Aggiornamenti
-Per rimanere aggiornati sugli sviluppi del libro, consultate i canali social di Officina Agileche trovate su: www.officinaagile.it.Il link alle versioni epub e mobi del libro, sempre aggiornate, sono:EPUB: https://leanpub.com/s/h2i7iwQ21H9Gb56u42q97A.epubMOBI: https://leanpub.com/s/h2i7iwQ21H9Gb56u42q97A.mobiQuesto il link al libro su Leanpub: https://leanpub.com/sulsentieroagile/read_full
+Per rimanere aggiornati sugli sviluppi del libro, consultate i canali social di Officina Agile che trovate su: [www.officinaagile.it](www.officinaagile.it).
+Il link alle versioni epub e mobi del libro, sempre aggiornate, sono:
+EPUB: https://leanpub.com/s/h2i7iwQ21H9Gb56u42q97A.epub
+MOBI: https://leanpub.com/s/h2i7iwQ21H9Gb56u42q97A.mobi
+Questo il link al libro su Leanpub: https://leanpub.com/sulsentieroagile/read_full
 
 
-Vision
-Questo libro vuole essere un viaggio di agilizzazione che facciamo insieme al lettore; inquesto viaggio ci troveremo dover prendere delle decisioni, valuteremo le opzioni, faremodelle scelte. Ci aspettiamo che alcune di queste opzioni nascano dai tuoi feedback.Vorremmo che questo libro diventi un nostro modesto contributo per aiutarti a prenderedecisioni che ti troverai a dover prendere nel corso della tua esperienza agile.
+## Vision
+Questo libro vuole essere un viaggio di agilizzazione che facciamo insieme al lettore; in questo viaggio ci troveremo dover prendere delle decisioni, valuteremo le opzioni, faremo delle scelte. Ci aspettiamo che alcune di queste opzioni nascano dai tuoi feedback.
+Vorremmo che questo libro diventi un nostro contributo per aiutarti a sperimentare quando ti troverai a dover prendere delle decisioni più o meno impegnative nel corso della tua esperienza agile.
 
 
-Mission
-Cercheremo di ridurre al minimo il superfluo: vorremmo esporre dei concetti chiave riguardoall’agilità, rimandando gli approfondimenti ad appendici o collegamenti esterni.Costruiremo questo libro insieme, dalle esperienze e dalle nozioni acquisite sul campo e suilibri: partiamo dai concetti base dell’agilità, iniziamo un percorso di agilizzazione e parleremodi pratiche e strumenti.La struttura del libro sarà semplice e altresì tale da permettere una ricerca rapida e unorientamento veloce. Il libro viene pubblicato da subito in un formato incompleto, ma cheporti valore, e verrà aggiornato frequentemente all’interno di un progetto di sviluppo chenon ha un termine pianificato.Cercheremo spesso un confronto con esperti che possano darci consigli e raccontarci storiedi successo e di fallimento.
+## Mission
+Cercheremo di ridurre al minimo il superfluo: vorremmo esporre dei concetti chiave riguardo l'agilità, rimandando gli approfondimenti ad appendici o collegamenti esterni.Costruiremo questo libro insieme, dalle esperienze e dalle nozioni acquisite sul campo e sui libri: partiamo dai concetti base dell’agilità, iniziamo un percorso di agilizzazione e parleremo di pratiche e strumenti.
+La struttura del libro sarà semplice e altresì tale da permettere una ricerca rapida e un orientamento veloce. Il libro viene pubblicato da subito in un formato incompleto, ma che porti valore, e verrà aggiornato frequentemente all’interno di un progetto di sviluppo che non ha un termine pianificato.
+Cercheremo spesso un confronto con esperti che possano darci consigli e raccontarci storie di successo e di fallimento.

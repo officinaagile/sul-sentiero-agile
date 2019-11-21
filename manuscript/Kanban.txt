@@ -1,0 +1,80 @@
+# Kanban
+
+## Cosa è Kanban
+Kanban è un metodo che ci mostra il nostro lavoro, come lo stiamo facendo e quanto lo
+stiamo realizzando efficacemente. La sola visualizzazione di queste informazioni ci permette di aumentare la consapevolezza dei nostri processi, migliorarci implicitamente e abilitare delle iniziative di miglioramento esplicito.
+Kanban parte da visualizzare quello che stiamo facendo ora e come lo stiamo facendo, ma
+risulta efficace se ci si concentra su come migliorare i flussi di lavoro, attraverso un processo di continuous improvement.
+
+## I Valori Kanban
+Kanban è basato su nove valori, che sostengono i suoi principi e le sue pratiche:
+* Trasparenza: lo scambio aperto di informazioni migliora il flusso di informazioni.
+* Equilibrio: per massimizzare l’efficacia del processo, diversi aspetti e punti di vista
+devono essere in equilibrio.
+* Collaborazione: Kanban è un metodo per migliorare il lavoro in team.
+* Focus sul cliente: il focus di Kanban è sul valore rilasciato al cliente, che sia interno o esterno all’organizzazione.
+* Flusso: il lavoro è composto da un flusso di valore; visualizzare questo flusso è l’inizio di Kanban.
+* Leadership: Kanban sponsorizza la ’leadership by example’; al fine di ottenere valore e miglioramento, la leadership è necessaria a tutti i livelli.
+* Consapevolezza: consapevolezza del proprio stato, sia a livello personale, che di azienda. Kanban è una metodologia per il miglioramento continuo ed è fondamentale saper riconoscere il punto in cui ci troviamo.
+* Accordo: l’efficacia del proprio lavoro si raggiunge anche attraverso l’accordo sugli
+obiettivi, con un impegno comune verso il miglioramento.
+* Rispetto: la base di tutti i valori, tenere in considerazione le altre persone e mostrare il rispetto verso di loro.
+
+## Kanban Agendas
+Vediamo quali sono i tre fronti (noti come Agendas) sui quali Kanban lavora per ottenere l’obiettivo di improvement del valore:
+* Sostenibilità: trovare un equilibrio fra l’impegno sulla produzione e la soddisfazione del cliente, un bilanciamento che si ottiene prima di tutto partendo dalla visualizzazione del flusso di lavoro.
+* Orientamento al servizio: l’obiettivo è di fornire servizi che soddisfano appieno le aspettative del cliente.
+* Sopravvivenza: tende ad assicurare la sopravvivenza dell’organizzazione, in un contesto di continuo cambiamento. Kanban segue un approccio evolutivo al cambiamento, improntato al continuous improvement sulla base di esperimenti safe to fail.
+
+## I principi fondanti di Kanban
+Suddivisi in due gruppi (Change Management e Service Delivery), sono definiti sei principi fondanti di Kanban.
+
+Principi del Change Management:
+* Inizia da cosa stai facendo, comprendendo i processi attuali e rispettando i ruoli e le responsabilità esistenti.
+* Il miglioramento si raggiunge attraverso il cambiamento evolutivo.
+* Le azioni di leadership, a qualsiasi livello, devono essere incoraggiate.
+I principi del change management si basano sulla consapevolezza della resistenza al cambiamento e sulla volontà di confrontarsi con questa resistenza rispettando le persone e la loro storia.
+
+Principi del Service Delivery:
+* Concentrati sulle necessità e le aspettative dei clienti.
+* Gestisci il lavoro e lascia che le persone si auto-organizzino intorno ad esso.
+* Fai evolvere le procedure, per migliorare il servizio al cliente.
+
+I principi del service delivery descrivono un flusso continuo: dai processi ai ’work item’, verso l’ottimizzazione del servizio al cliente, nell’ottica della riduzione degli sprechi (tutto ciò che non ha come focus la sdoddisfazione del cliente).
+Notiamo la similitudine con il decimo principio agile: ”La semplicità - l’arte di massimizzare il lavoro non svolto - è essenziale”; cogliamo anche l’occasione per riflettere sulla similitudine fra Agile e Lean e per citare due articoli: [”Kanban: agile o no?”](http://www.mokabyte.it/2013/12/AgileKanban/) uscito a Dicembre 2013 su MokaByte e [”Lean e Agile, similitudini e differenze”](https://www.felicepescatore.it/alm/142-lean-e-agile-similitudini-e-differenze) uscito a Gennaio 2015 sul sito di Felice Pescatore (Agile Business Coach ed esperto DevOps).
+
+## Il Flusso Kanban
+Un sistema Kanban è formato da una serie di scoperte cognitive e le loro associate procedure, rese visibili in una Kanban Board; i ’work item’ fluiscono attraverso varie fasi di un processo, ordinatamente da sinistra a destra.
+Questo sistema ha alcuni vincoli per poter essere chiamato ’Kanban’:
+* il Work In Progress (gli item in lavorazione) deve essere limitato, ovvero i work item contemporaneamente in DOING non devono mai superare una certa soglia (si parla di WIP Limit)
+* devono essere chiari il Commitment Point e il Delivery Point
+
+Il **Commitment Point** è il punto di ingresso alla fase nella quale il servizio si prende l’impegno di deliverare il lavoro, mentre il **Delivery Point** è il punto di uscita dalla fase nella quale il servizio ha ultimato il lavoro: dopo questa soglia, il lavoro può essere considerato consegnabile al cliente.
+Prima del Commitment Point, i work item sono considerati opzioni o idee sulle quali il servizio può o dovrebbe lavorare, ma non sono ancora state prese in carico; dopo il Delivery Point i work item sono considerati completi. Il tempo intercorso tra Commitment e Delivery Point è comunemente chiamato **Lead Time**, mentre il tempo che intercorre tra il momento in cui un work item viene ’consegnato al sistema’ e il Delivery Time viene chiamato **Customer Lead Time**, ovvero l’attesa che il cliente effettivamente percepisce fra quando effettua una richiesta e quando viene servito.
+Questa distinzione è utile per poter fare le opportune valutazioni volte al dimensionamento del servizio: tenendo in opportuna considerazione la capacità del sistema. Questo ci permette di introdurre la **legge di Little**: riferendoci alle fasi che vanno dal Commitment Point al Delivery Point, il tasso medio di delivery (Delivery Rate) equivale al rapporto tra la media del WIP e la media del Lead Time. Possiamo generalizzare questo concetto applicando ad altre singole fasi del sistema, o a gruppi di fasi del sistema e chiamandolo Throughput (medio), definito come rapporto tra la media del WIP e media del tempo di attraversamento (Time in Process o Cycle Time) sulle fasi considerate. Una considerazione che nasce da quanto sopra è che, a parità di capacity, per ottimizzare il Lead Time (livello di servizio), è opportuno minimizzare il WIP (parallelismo, leggesi anche Context Switching). Dalla legge di Little deriva una pratica comune in Kanban per il monitoring e l’analisi dei flussi tramite il Cumulative Flow Diagram (CFD), che traccia il cumulato dei work item in ingresso e in uscita da ogni fase del sistema: tramite il CFD è possibile ottenere graficamente i valori medi di Throughput, WIP e Cycle Time.
+
+## Le Pratiche di Kanban
+Kanban prevede sei pratiche generali per la gestione di un sistema kanban:
+* Visualizzare: rendere il lavoro e le procedure visibili su una Kanban board è il risultato di un lavoro di collaborazione e comprensione del sistema e del processo, che porta ad allineamento e chiarezza sulle aree di miglioramento. Le fasi del processo che vanno a costituire una Kanban board posso essere definite in modo incrementale e affinarsi via via che il i vincoli e i punti di improvement vengono scoperti. Giovanni Puliti racconta in [questo bell’articolo](http://www.mokabyte.it/2014/12/kanban-2/) un percorso di definizione di una Kanban board. Tipicamente ogni colonna di una board rappresenta una fase del processo e possono essere usati dei raggruppamenti delle fasi in riga (Swimlane) per evidenziare dei particolari stati o delle condizioni. Una particolare tipologia di Swimlane, dedicata ai Work Item ad alta priorità, è comunemente chiamata Expedite Lane.
+* Limitare il WIP: per abilitare un sistema in Pull, anziché in Push, e mitigare gli effetti del Context Switching è opportuno limitare il numero degli item in progress (ricorda il comune mantra in Lean e in Agile: ”Stop Starting, Start Finishing”). In Lean (in particolare: Toyota Production System, 3M) si parla di Muri - il sovraccarico - come uno dei tre principali sprechi da combattere, estremizzato nell’implementazione Toyota con la pratica del Just In Time). Ottimizzare il WIP in base alla capacità del sistema è un fattore fondamentale per migliorare la qualità e il livello di servizio.
+* Gestire il flusso: in Kanban questo significa agire per massimizzare il valore, minimizzare il lead time e rendere il servizio predicibile. Nell’ottica di raggiungere questi obiettivi è fondamentale combattere i colli di bottiglia e lavorare a stretto contatto con il cliente, concordando i razionali per la prioritizzazione dei work item.
+* Rendere le procedure esplicite: le procedure che si applicano al processo definiscono dei vincoli condivisi che tendono ad efficientare il lavoro; esse devono essere semplici, chiare, visibili e devono poter essere modificate da chi eroga il servizio, con l’obiettivo di massimizzare il valore e la predicibilità. Esempi di procedure possono essere il WIP limit, la Definition of Ready (condizioni che devono soddisfare i work item per poter oltrepassare il Commitment Point), la Definition of Done (condizioni che devono soddisfare i work item per poter oltrepassare il Delivery Point), le politiche di Replenishment (come selezionare i nuovi work item quando la capacity lo permette, ovvero quando il WIP è sotto una certa soglia).
+* Implementare dei feedback loop: il feedback, come sappiamo, è un elemento fondamentale per il Continuous Improvement; Kanban definisce sette specifiche opportunità di feedback, dette anche Cadenze: meeting a intervalli regolari (la frequenza dipende dal contesto, tipicamente: daily, weekly, monthly, quarterly) che guidano l’evoluzione del processo nell’efficientamento del servizio.
+Le sette Cadenze sono:
+ * Strategy Review: per la definizione e il miglioramento dei servizi offerti
+ * Operations Review: per comprendere l’equilibrio tra i servizi offerti e massimizzare il valore deliverato
+ * Risk Review: per valutare e mitigare i rischi legati alla delivery dei servizi
+ * Service Delivery Review: per esaminare e migliorare l’efficacia dei servizi
+ * Replenishment Meeting: per selezionare i nuovi work item che possono attraversare il Commitment Point e ispezionare gli item che potranno essere selezionati in futuro
+ * Kanban Meeting: daily meeting per allineamento e pianificazione del lavoro della giornata in modo auto-organizzato
+ * Delivery Planning Meeting: per monitorare e pianificare la delivery al cliente. • Migliorare in modo collaborativo, evolvere in modo sperimentale: Kanban è una metodologia volta al miglioramento continuo, che parte dal flusso di lavoro esistente e lo evolve empiricamente senza che vi sia prefissato un obiettivo a priori, ma con la consapevolezza che il sistema, in accordo al contesto nel quale esso vive, necessiti di un continuo mutamento.
+
+ ## I Ruoli di Kanban
+Kanban esorta al continuo miglioramento in forma collaborativa, nonostante ciò si è  affermata nel tempo l’efficacia della specificità in due aree di responsabilità chiave: la prima  legata al Commitment Point e la seconda legata al Delivery Point.  
+Queste responsabilità sono state sintetizzate nella metodologia stessa con la definizione di  due ruoli:
+* Service Request Manager: lavora al livello del Commitment Point, è responsabile di  comprendere le aspettative del cliente, facilitare la gestione del Replenishment Meeting,  della prioritizzazione dei work item e della loro compliance alla Definition of Ready
+* Service Delivery Manager: lavora al livello del Delivery Point, è responsabile del flusso  del sistema, dell’ottimizzazione del Lead Time e della rimozione dei colli di bottiglia. Si  occupa di facilitare il Kanban meeting e il Delivery Planning.
+
+## Risorse Kanban
+Oltre agli articoli citati in questa sezione, consigliamo: ”Essential Kanban Condensed” di David J Anderson e Andy Carmichael e ”Kanban in action” di Marcus Hammarberg e Joakim
+Sunden.
