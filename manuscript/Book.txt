@@ -1,3 +1,11 @@
 Introduzione.txt
 Backlog.txt
-chapter3.txt
+PercheAgilizzarsi.txt
+CoseAgile.txt
+AgilizzazioneComeIniziare.txt
+Complessitaesperimenti.txt
+Triangolodiferro.txt
+Kanban.txt
+wave0.txt
+wave1.txt
+wave2.txt
