@@ -1,0 +1,78 @@
+# Agilizzazione: come iniziare
+
+Iniziare un processo di agilizzazione può prevedere diverse strade: la forma di questo percorsosarà guidata del ’perché’ questo processo ha inizio e da quali obiettivi esso si pone; si puòiniziare per volontà del top management o come esperimento di un team, lo scope temporalepuò essere limitato (in tal caso possiamo parlare di adozione Agile) o meno, si possonoincludere tutti i reparti di un’azienda, oppure un solo reparto o un solo team.In funzione delle necessità e degli obiettivi che ci diamo, possiamo utilizzare processi e strumentidiversi; possiamo considerare come esempio le fasi di un’agilizzazione che riporteremodi seguito, la loro profondità varierà in base al contesto di adozione e all’obiettivo. Va tenuto in considerazione che l’agilizzazione, per definizione, non è un percorso lineare: passando dauna fase all’altra, non è da escludere che sia opportuno tornare indietro e iterare, rivedere lastrategia e, in ogni caso, monitorare e analizzare costantemente gli obiettivi, per verificarnela loro attualità.Consideriamo queste fasi, esse saranno relative all’entità che intende implementare unatransizione Agile (organizzazione, reparto, team…):
+
+*Assessment*: in questa fase si cerca di fotografare lo stato dell’entità, i suoi attuali processie i suoi obiettivi. L’output di questa fase potrà essere in parte evidente e si tratteràsemplicemente di registrare ciò che si nota o che verrà raccontato; in parte, invece, servirà unlavoro di introspezione da parte dell’entità, per definire ciò che potrebbe non essere chiaro eunivoco: ad esempio la vision, la mission, gli obiettivi strategici. Teniamo ben presente che,all’interno di un sistema complesso, osservare il sistema ne altera il comportamento.
+
+*Strategy*: a valle dell’assessment e grazie all’output della prima fase, può essere definita unastrategia di transizione Agile assieme agli sponsor principali dell’entità. Questa strategiaprevederà un piano ben delineato a breve termine, e sarà tanto più sfumato quanto piùlontano sulla linea del tempo.
+
+*Training*: in questa fase si calano le nozioni più importanti sull’entità e si inizia a coltivareil mindset, lavorando sulla consapevolezza, sulle convinzioni autolimitanti e sulla resistenzaal cambiamento.
+
+*Coaching*: l’output della fase precedente ci potrà dare delle indicazioni preziose per lafase di coaching, nella quale si lavora per rinforzare le pratiche, promuovere il continuousimprovement e, insieme ai leader emergenti dell’entità, si mettono in campo gli esperimentiper fittare il processo.
+
+Cerchiamo di vedere queste fasi come una spirale, un processo circolare che prevede piùround, o meglio chiamiamole ’wave’: al termine di una wave, che potrebbe prevedere illancio di un team pilota ad esempio, sarà fondamentale considerare i feedback raccoltie tenerne conto per la seconda wave; il nuovo Assessment potrà avere delle importantivariazioni rispetto al primo, sia per una maggiore consapevolezza dei coach e dell’entità, siaper una variazione del contesto. La Strategy si adeguerà ai feedback della wave e al nuovoAssessment. Il Training della wave successiva verrà adeguato in base a cosa ha funzionato ecosa non ha funzionato nella wave precedente; stessa cosa dicasi per il coaching, che, inoltre,potrà avere un input diverso dal precedente.
+
+Andiamo più in dettaglio nella definizione delle fasi, senza dimenticarci che quanto segueè solo un possibile esempio per una transizione Agile, ma non intende assolutamente essereun’indicazione prescrittiva:
+
+*Assessment*: l’output di questa fase potrebbe essere definito in due passi, dapprima ilcoach in autonomia e cercando di evitare influenze esterne dovrebbe raccogliere le seguentiinformazioni e in un secondo momento registrare informazioni tramite delle interviste:
+* Vision, Mission e Strategy
+* Struttura organizzativa
+* Competenze e caratteristiche delle persone dell’entità (per questo punto, potrebbe essere
+utile utilizzare una [Skill Matrix](https://management30.com/practice/competency-matrix/)) (vedi sezione dedicata)
+* Prodotti/Servizi forniti
+* Processi adottati
+* Obiettivi dell’entità
+* Cultura dell’entità (per questo punto, potrebbe essere utile mappare l’entità secondo lo [schema di Frederic Laloux](https://www.reinventingorganizations.com) (vedi sezione dedicata).
+
+*Strategy*: in base alle sue dimensioni, tutta l’entità o una parte di essa partecipa attivamentea definire la strategia della wave corrente; qualora si trattasse della transizione di un’interaorganizzazione, potrebbe essere definito un transition team: un team temporaneo chesponsorizza, sostiene e si adopera attivamente per il processo di transizione e ne fa advocacy.Una sponsorship forte può essere decisiva per il buon esito di una transizione. All’interno diquesta fase vengono provvisoriamente definiti (sempre in modo iterativo incrementale): lewave, i progetti pilota, i ruoli iniziali, le metriche, i KPI e i criteri di successo e di fallimento.
+
+*Training*: vengono erogati dei corsi interni, si fanno delle sessioni di one to one quandonecessario, si parte con l’inception dei team, vengono definiti i working agreement e si iniziaa monitorare i KPI fin da subito. In questa fase è importante fissare dei Jump of Point deiKPI, cosicché sia possibile valutare i criteri di successo e fallimento più avanti nel tempo. Una lettura che potrebbe rivelarsi utile in fase di inception è il libro ['Liftoff' di Diana Larsen](https://www.agilealliance.org/resources/books/liftoff/). La prima entità alla quale erogare il training sarà probabilmente lo steering committee, ovvero il team sponsor: qualora esso non riuscisse ad acquisire le competenze e il mindset necessari per guidare la transizione, il progetto sarà fortemente a rischio di fallimento.
+
+*Coaching*: in questa fase il coach agisce dall’esterno, il protagonista è il team, che deveessere messo in condizione di poter sperimentare; una condizione safe to fail è fondamentaleaffinché il team possa acquisire esperienza e non venga limitato dal timore di sbagliare; ilteam deve essere empowered e in questa fase ha bisogno di tutto l’appoggio degli sponsor.A questo punto si lavora per rinsaldare le pratiche, promuovere la cultura del Kaizen. Vienefatto coaching one to one o di team sui ruoli e sulle tensioni sane, si cerca di evidenziare ledisfunzioni e rinforzare i processi efficaci.
+
+Quando un team sta partendo e sono alti l’entusiasmo e la voglia di sperimentare, è probabileche ci si trovi ad affrontare situazioni nelle quali il team lancia esperimenti arditi, pococonvenzionali e un coach esperto potrebbe prevederne il probabile fallimento; in questeoccasioni non sempre la scelta migliore è quella di bloccare gli esperimenti del team allanascita: talvolta un fallimento può essere formativo, far crescere comunque l’entusiasmo delteam e portarlo ad un maggior livello di consapevolezza dei propri mezzi e di quali strumentie quali scelte sia in grado di intraprendere in quel momento. D’altronde è altrettantoimportante che questi fallimenti siano controllati e che lo step di analisi e miglioramentoche ne conseguirà possa avere a sostegno i dati necessari; è quindi importante aiutare ilteam nella corretta definizione degli esperimenti, ad esempio introducendo il concetto diSMARTness e dando struttura al processo.
+
+
+## Skill Matrix
+La skill matrix è uno strumento per la visualizzazione delle competenze di un individuo o un team, utile, ad esempio, per valutare l’autonomia dell’individuo o del team nelconseguimento di un certo obiettivo. Prendiamo ad esempio un set di funzionalità checompongono la testa di un backlog di prodotto e vediamo la skill matrix come una matricecon le competenze (necessarie per sviluppare queste funzionalità) sulle colonne e il livello dicompetenza sulle righe. Sempre come esempio, ipotizziamo che i livelli di competenza siano tre:
+* Expert (lo posso insgenare)
+* Practitioner (lo posso fare)
+* Novice (non lo conosco)
+
+Se individualmente compilassimo la matrice, potremmo verificare se siamo in grado o menodi sviluppare le funzionalità di prodotto in completa autonomia; se, inoltre, tutto un teamcompilasse la matrice, potremmo valutare se questo team sia o meno in grado di sviluppare le funzionalità della testa del backlog in autonomia.Per di più: qualora la skill matrix evidenziasse delle carenze che ci impediscono di portarea casa il risultato, avremmo comunque un potente strumento per la pianificazione dellaformazione dell’individuo o del team.
+
+Possiamo ipotizzare che il primo obiettivo nella composizione di una skill matrix di teamsia quello di avere un matrice complessiva (data dalla sovrapposizione delle matrici deisingoli) nella quale le prime due righe siano completamente coperte: come minimo, ogniteam member dovrà avere una forma a ’T’ (tutte le skill con competenza Novice, tranneuna con competenza ’Practitioner’); dopodiché, la pianificazione della formazione potrebbeprevedere di sviluppare in ogni team member la skill nella quale è più esperto, portandola aExpert (T-shaped skills) e, successivamente, iniziare a sviluppare le altre skill (la forma dellamatrice di ogni team member assumerà quindi una forma a Pi greco e così via, sviluppando ancora la skill matrix verso una forma a pettine (e aumentando la resilienza del team).
+
+
+## I modelli organizzativi di Frederic Laloux
+Nel suo lavoro espresso all’interno del libro ['Reinventig Organizations'](https://www.reinventingorganizations.com/purchase.html), Frederic Lalouxdescrive i modelli organizzativi in uno schema evolutivo: senza entrare nel dettaglio esacrificando il contesto del lavoro di Laloux per giungere subito al dettaglio che di interessa, focalizziamoci sulla categorizzazione che esso da all’evoluzione delle organizzazioni:
+* Red (impulsive): il collante dell’organizzazione è la paura, serve un esercizio costante del potere da parte del capo; prolifera negli ambienti caotici (vedi sezione dedicata al Kynefin framework), un esempio sono le organizzazioni criminali.
+* Amber (conformiste): gerarchia fortemente piramidale, organizzazione basata sul command and control e sul principio di causa/effetto; un esempio sono le forze armate.
+* Orange (ambiziose): gli obiettivi sono strettamente legati al raggiungimento di profitto e crescita, le caratteristiche principali sono: innovazione, accountability e meritocrazia.
+* Green (pluralistiche): struttura piramidale, si focalizzano su cultura e autonomia per aumentare la motivazione dei dipendenti; lo stile di leadership è partecipativo e orientato al consenso.
+* Teal (evolutive): l’autogestione sostituisce la struttura piramidale, l’organizzazione è vista come un’entità vivente, con un suo scopo evolutivo, la leadership è distribuita.
+
+Nel suo lavoro ’Shifting Consciousness’, [Andrea Provaglio](http://andreaprovaglio.com/) prova a mappare i valori del Manifesto Agile con i modelli organizzativi di Laloux; di seguito il risultato:
+* Individui e Interazioni: Teal e Green;
+* Working Software: Teal e Orange;
+* Customer Collaboration: Teal e Green;
+* Responding to change: Teal e Orange.
+
+Dalla parte destra dei valori, invece, abbiamo:
+* Processes and Tools: Orange e Amber;
+* Comprehensive Documentation: Amber;
+* Contract Negotiation: Red e Amber;
+* Following a Plan: Amber.
+
+Speriamo che questi spunti possano esservi utili nell’analisi della cultura aziendale infase di assessment: il posizionamento culturale dell’organizzazione all’interno del modelloorganizzativo e la distanza rispetto allo schema di Provaglio potrebbero darvi un’idea dellavoro che sarà necessario intraprendere e i fronti sui quali dedicare particolare focus.
+
+
+## SMART
+SMART è un acronimo per la corretta definizione degli obiettivi (viene comunemente attribuito a George T. Doran, non intendiamo riportare qui la storia, ma [questo](https://www.achieveit.com/resources/blog/the-history-and-evolution-of-smart-goals) può essere un articolo per approfondire). Applicare la SMARTness ad un obiettivoconsente di verificarne la corretta formulazione al fine di massimizzarne la probabilità diraggiungimento, o, quantomeno, un corretto monitoraggio.
+
+Di seguito l’estensione dell’acronimo:
+* S: Specifico (Specific), identifica dettagliatamente l’area di miglioramento, l’obiettivo.
+* M: Misurabile (Measurable), quantifica l’obiettivo in modo che sia possibile settare delle aspettative intermedie e monitorare il progresso.
+* A: Raggiungibile (Achievable), il contesto e le condizioni al contorno, per quanto sia possibile saperne al momento in cui definiamo l’obiettivo, sono realmente raggiungibili, non siamo a conoscenza di impedimenti la cui rimozione è irrealistica.
+* R: Rilevante (Relevant), il raggiungimento dell’obiettivo e il relativo sforzo che dovremo mettere in campo per il suo raggiungimento sono giustificati da una rilevanza riconosciuta da chi ne è coinvolto.
+* T: Limitato nel tempo (Time bound), il raggiungimento dell’obiettivo ha una deadline temporale, entro la quale ha senso e porta valore raggiungere lo stesso.

@@ -1,0 +1,37 @@
+# Backlog
+
+Ogni progetto parte da un backlog, una lista (incompleta) di attività da portare a termine, eanche noi inizieremo da un backlog. Parleremo più avanti dei dettagli di cosa è un backlog,delle sue caratteristiche e di come può essere gestito. Per cominciare, ci basti sapere che unbacklog è una lista di cose da fare, che devono essere analizzate una per una. Queste ”cose dafare” devono essere costantemente analizzate, arricchite e prioritizzate avendo una visionead ampio spettro per cercare di portare a coloro che fruiranno di questi item il maggior valorepossibile.Partiamo intanto da una lista non ordinata di argomenti, che verranno arricchiti, integrati emodificati dai vostri feedback e dalle vostre proposte; questi argomenti saranno i capitoli ele sezioni del nostro libro:
+Perché agilizzarsi
+Cos’è Agile
+Agilizzazione: come iniziare
+Complessità e esperimenti
+Change Management: 8-Step Process for Leading Change (Kotter)
+Le 14 regole della Qualità Totale
+Perché un’organizzazione mezzo-agile non funziona
+Organigramma e ruoli in un’organizzazione Agile
+Organizational Design: Galbraith Star Model
+Management 3.0
+Tempi, risorse, costi: il triangolo di ferro e l’agilità
+Scrum
+Scrum PLOP: pattern di performance
+Kanban
+Extreme Programming
+Lean Software Development
+Le radici: cosa installare con priorità (per non perdersi prima di aver iniziato)
+Inception di un team
+Wave 0: transition team
+Wave 1: il primo team
+Wave 2: partono altri team, si parla di scaling
+Framework di scaling: le basi di Safe
+Framework di scaling: le basi di Less
+Framework di scaling: le basi di Scrum at Scale
+Backlog management: come gestire e coordinare più backlog
+Rilasciare valore frequentemente: tecniche di slicing
+L’agilità quando pianificare è un dramma (illegittimus non interruptus)
+Bussole: cosa non perdere mai di vista (spoiler: massimizzare il valore -> feedback)
+Strumenti per il backlog (User Story Mapping, Impact Mapping, tecniche di brainstorming,
+Value Poker…)
+Scrum pattern di performance
+Coltivare le motivazioni che svilupperanno l’agilità (Daniel Pink)
+Antifragilità: oltre l’agilità
+Modern Agile: uno sguardo a come Agile sta cambiando
