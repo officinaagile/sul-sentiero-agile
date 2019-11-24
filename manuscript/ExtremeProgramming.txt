@@ -26,7 +26,15 @@ A [QUESTO](http://wiki.c2.com/?WhenIsXpNotAppropriate) link potete trovare un'in
 
 
 ## Valori di Extreme Programming
-Vediamo i cinque valori sui quali XP si basa
+Vediamo i cinque valori sui quali XP si basa:
+* **Semplicità**: *faremo ciò che è necessario e richiesto, ma niente di più. Ciò massimizzerà il valore creato per l'investimento fatto fino ad oggi. Adotteremo piccoli e semplici passi verso il nostro obiettivo e mitigheremo i fallimenti man mano che si verificano. Creeremo qualcosa di cui siamo orgogliosi e lo terremo a lungo termine a costi ragionevoli*.
+XP incoraggia ad iniziare sempre con la soluzione più semplice ed aggiungere funzionalità extra in un secondo momento.
+Una delle caratteristiche dell'approccio di Extreme Programming è la progettazione del software basata sulle esigenze contingenti, piuttosto che il design e l'architettura per il domani (spesso viene utilizzato l'acronimo YAGNI - You ain't gonna need it - ovvero - Non ne avrai bisogno -). Anche in XP troviamo più di una caratteristica che ricorda il principio del 'last responsible moment': è bene sottolineare che questo tipo di approccio comporta inevitabilmente un rework; la sua forza, d'altronde, è proprio quella di non ipotizzare soluzioni a lungo termine quando non abbiamo certezze (ricordiamo che una delle condizioni che massimizzano l'efficacia di XP è proprio un contesto con requisiti che cambiano frequentemente).
+Tutto ciò ricorda molto il decimo principio agile: *Simplicity - the art of maximizing the amount of work not done - is essential*.
+
+* **Comunicazione**: *tutti fanno parte del team e comunichiamo faccia a faccia ogni giorno. Lavoreremo insieme su tutto, dai requisiti al codice. Creeremo insieme la migliore soluzione al nostro problema*.
+Una comunicazione efficace fra il team di sviluppo e gli stakeholder, ma anche all'interno del team favorisce le performance e la qualità del prodotto e, soprattutto, abbassa il rischio di divergenza fra le aspettative dei clienti e l'incremento di prodotto.
+Tutto ciò ricorda molto il secondo valore agile (Customer collaboration over contract negotiation) e il seguente dei cinque valori di Scrum: *Apertura - I team di Scrum cercano costantemente nuove idee e opportunità di apprendimento. I team agili sono anche onesti quando hanno bisogno di aiuto*.
 
 ## Principi di Extreme Programming
 
