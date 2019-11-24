@@ -1,0 +1,38 @@
+# Extreme Programming
+
+## Cosa è Extreme Programming
+Extreme Programming (XP) è un framework agile dedicato allo sviluppo software, che definisce valori e pratiche volti alla produzione di codice di qualità.
+A differenza di framework quali Scrum o Kanban, XP non si focalizza sul processo, bensì sulle pratiche ingegneristiche: questo fa sì che Scrum e XP, ad esempio, possano essere adottati allo stesso tempo (vedremo più avanti come questo connubio siano non solo fattibile, ma anche auspicabile).
+XP si basa su cinque **valori** e dodici **pratiche** (o regole); per attuare le pratiche XP, le fondamenta sono quattro attività basilari del processo di sviluppo software: sviluppo del codice, sviluppo del test, ascolto e design.
+Vedremo di seguito perchè e quando è efficace l'adozione di XP e il dettaglio di valori, pratiche e attività.
+
+## Perchè XP
+Extreme Programming è stato sviluppato da [Kent Beck](https://www.kentbeck.com/) (uno dei firmatari del Manifesto Agile) a partire dal 1996 ed è stato formalizzato per la prima volta dallo stesso Beck nel 1999 nel suo libro ['Extreme Programming Explained'](https://www.amazon.it/Extreme-Programming-Explained-Embrace-Change/dp/0201616416/ref=sr_1_4?adgrpid=52195471586&gclid=CjwKCAiA8ejuBRAaEiwAn-iJ3nL2YKKMSpv8GWJuONPUbyVXEqSKo-kI4mr-S-bzxhyKqjj5xHrAzBoC9YEQAvD_BwE&hvadid=255171266054&hvdev=c&hvlocphy=1008389&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=14148274798741980072&hvtargid=kwd-299811065929&hydadcr=18602_1737172&keywords=extreme+programming+explained&qid=1574595244&sr=8-4).
+Nonostante il nome 'programmazione *estrema*', che potrebbe essere fuorviante, vedremo come le pratiche XP tendano principalmente a valutare massimizzare l'efficacia del prodotto nell'accogliere i cambiamenti dei requisiti e a rilasciare software con un rischio controllato.
+Le condizioni nelle quali XP risulta particolarmente efficace possono essere riassunte come segue:
+* Situazioni nelle quali i requisiti variano velocemente.
+* Progetti con una data di scadenza stringente e un elevato rischio dovuto all'utilizzo di nuove tecnologie.
+* Gruppi di sviluppi piccoli.
+* Le tecnologie utilizzate permettono l'automazione di test di unità e test funzionali.
+
+A [QUESTO](http://www.extremeprogramming.org/when.html) link potete trovare un'interessante approfondimento sul tema 'quando XP dovrebbe essere utilizzato'.
+Da tenere in considerazione che, così come per Scrum, anche per XP avere dei team co-locati è senz'altro una caratteristica che ne facilita l'utilizzo e la pratica; d'altra parte questo non può essere considerato un vincolo ferreo, a nostro parere, dato che il mondo del lavoro sta sempre più accogliendo il remote working e le tecnologie, così come gli strumenti e i processi, stanno sempre più facilitando questo tipo di approccio.
+
+Così come alcune condizioni esaltano l'efficacia di XP, altre la limitano fortemente; fra queste, vogliamo citarne un paio, non così inusuali:
+* Sistemi nei quali i vincoli sugli scenari di utilizzo sono (volutamente o casualmente) laschi: in questi casi le condizioni di funzionamento del sistema non sono sempre note a priori e le casistiche di adozione (e do testing del sistema risultano impredicibili). Un esempio relativamente comune è l'integrazione fra due o più sistemi che non condividono interfacce con contratti specifici.
+* Sistemi legacy instabili dove la complessità e il volume del codice comporterebbero un effort-XP smisurato rispetto alla banda a disposizione.
+
+A [QUESTO](http://wiki.c2.com/?WhenIsXpNotAppropriate) link potete trovare un'interessante approfondimento sul tema 'quando XP non dovrebbe essere utilizzato'.
+
+
+## Valori di Extreme Programming
+Vediamo i cinque valori sui quali XP si basa
+
+## Principi di Extreme Programming
+
+
+## Pratiche di Extreme Programming
+
+
+## Risorse
+link al podcast di Officina Agile

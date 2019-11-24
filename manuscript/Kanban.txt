@@ -70,11 +70,16 @@ Le sette Cadenze sono:
  * Delivery Planning Meeting: per monitorare e pianificare la delivery al cliente. • Migliorare in modo collaborativo, evolvere in modo sperimentale: Kanban è una metodologia volta al miglioramento continuo, che parte dal flusso di lavoro esistente e lo evolve empiricamente senza che vi sia prefissato un obiettivo a priori, ma con la consapevolezza che il sistema, in accordo al contesto nel quale esso vive, necessiti di un continuo mutamento.
 
  ## I Ruoli di Kanban
-Kanban esorta al continuo miglioramento in forma collaborativa, nonostante ciò si è  affermata nel tempo l’efficacia della specificità in due aree di responsabilità chiave: la prima  legata al Commitment Point e la seconda legata al Delivery Point.  
+Kanban esorta al continuo miglioramento in forma collaborativa, nonostante ciò si è  affermata nel tempo l’efficacia della specificità in due aree di responsabilità chiave: la prima  legata al Commitment Point e la seconda legata al Delivery Point.
 Queste responsabilità sono state sintetizzate nella metodologia stessa con la definizione di  due ruoli:
 * Service Request Manager: lavora al livello del Commitment Point, è responsabile di  comprendere le aspettative del cliente, facilitare la gestione del Replenishment Meeting,  della prioritizzazione dei work item e della loro compliance alla Definition of Ready
 * Service Delivery Manager: lavora al livello del Delivery Point, è responsabile del flusso  del sistema, dell’ottimizzazione del Lead Time e della rimozione dei colli di bottiglia. Si  occupa di facilitare il Kanban meeting e il Delivery Planning.
 
 ## Risorse Kanban
-Oltre agli articoli citati in questa sezione, consigliamo: ”Essential Kanban Condensed” di David J Anderson e Andy Carmichael e ”Kanban in action” di Marcus Hammarberg e Joakim
+Oltre agli articoli citati in questa sezione, consigliamo:
+ * Il libro ”Essential Kanban Condensed” di David J Anderson e Andy Carmichael.
+ * Il libro ”Kanban in action” di Marcus Hammarberg e Joakim
 Sunden.
+* I nostri due podcast:
+ * [Kanban Cadences](https://www.officinaagile.it/kanban-cadences/)
+ * [Ruoli in Kanban](https://www.officinaagile.it/ruoli-kanban/)
