@@ -3,19 +3,19 @@
 ## Cosa è Extreme Programming
 Extreme Programming (XP) è un framework agile dedicato allo sviluppo software, che definisce valori e pratiche volti alla produzione di codice di qualità.
 A differenza di framework quali Scrum o Kanban, XP non si focalizza sul processo, bensì sulle pratiche ingegneristiche: questo fa sì che Scrum e XP, ad esempio, possano essere adottati allo stesso tempo (vedremo più avanti come questo connubio siano non solo fattibile, ma anche auspicabile).
-XP si basa su cinque **valori** e dodici **pratiche** (o regole); per attuare le pratiche XP, le fondamenta sono quattro attività basilari del processo di sviluppo software: sviluppo del codice, sviluppo del test, ascolto e design.  
+XP si basa su cinque **valori** e dodici **pratiche** (o regole); per attuare le pratiche XP, le fondamenta sono quattro attività basilari del processo di sviluppo software: sviluppo del codice, sviluppo del test, ascolto e design.
 Vedremo di seguito perchè e quando è efficace l'adozione di XP e il dettaglio di valori, pratiche e attività.
 
 ## Perchè XP
-Extreme Programming è stato sviluppato da [Kent Beck](https://www.kentbeck.com/) (uno dei firmatari del Manifesto Agile) a partire dal 1996 ed è stato formalizzato per la prima volta dallo stesso Beck nel 1999 nel suo libro ['Extreme Programming Explained'](https://www.amazon.it/Extreme-Programming-Explained-Embrace-Change/dp/0201616416/ref=sr_1_4?adgrpid=52195471586&gclid=CjwKCAiA8ejuBRAaEiwAn-iJ3nL2YKKMSpv8GWJuONPUbyVXEqSKo-kI4mr-S-bzxhyKqjj5xHrAzBoC9YEQAvD_BwE&hvadid=255171266054&hvdev=c&hvlocphy=1008389&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=14148274798741980072&hvtargid=kwd-299811065929&hydadcr=18602_1737172&keywords=extreme+programming+explained&qid=1574595244&sr=8-4).
-Nonostante il nome 'programmazione *estrema*', che potrebbe essere fuorviante, vedremo come le pratiche XP tendano principalmente a valutare massimizzare l'efficacia del prodotto nell'accogliere i cambiamenti dei requisiti e a rilasciare software con un rischio controllato.  
+Extreme Programming è stato sviluppato da [Kent Beck](https://www.kentbeck.com/) (uno dei firmatari del Manifesto Agile) a partire dal 1996 ed è stato formalizzato per la prima volta dallo stesso Beck nel 1999 nel suo libro ['Extreme Programming Explained'](https://www.amazon.it/Extreme-Programming-Explained-Embrace-Change/dp/0201616416/ref=sr_1_4?adgrpid=52195471586&gclid=CjwKCAiA8ejuBRAaEiwAn-iJ3nL2YKKMSpv8GWJuONPUbyVXEqSKo-kI4mr-S-bzxhyKqjj5xHrAzBoC9YEQAvD_BwE&hvadid=255171266054&hvdev=c&hvlocphy=1008389&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=14148274798741980072&hvtargid=kwd-299811065929&hydadcr=18602_1737172&keywords=extreme+programming+explained&qid=1574595244&sr=8-4) (la seconda edizione del libro è disponibile su Amazon [QUI](https://www.amazon.it/Extreme-Programming-Explained-Embrace-Paperback/dp/B00M0O8952/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Extreme+Programming+Explained%3A+Embrace+Change%2C+2nd+Edition&qid=1574980117&sr=8-1)).
+Nonostante il nome 'programmazione *estrema*', che potrebbe essere fuorviante, vedremo come le pratiche XP tendano principalmente a valutare massimizzare l'efficacia del prodotto nell'accogliere i cambiamenti dei requisiti e a rilasciare software con un rischio controllato.
 Le condizioni nelle quali XP risulta particolarmente efficace possono essere riassunte come segue:
 * Situazioni nelle quali i requisiti variano velocemente.
 * Progetti con una data di scadenza stringente e un elevato rischio dovuto all'utilizzo di nuove tecnologie.
 * Gruppi di sviluppi piccoli.
 * Le tecnologie utilizzate permettono l'automazione di test di unità e test funzionali.
 
-A [QUESTO](http://www.extremeprogramming.org/when.html) link potete trovare un'interessante approfondimento sul tema 'quando XP dovrebbe essere utilizzato'.  
+A [QUESTO](http://www.extremeprogramming.org/when.html) link potete trovare un'interessante approfondimento sul tema 'quando XP dovrebbe essere utilizzato'.
 Da tenere in considerazione che, così come per Scrum, anche per XP avere dei team co-locati è senz'altro una caratteristica che ne facilita l'utilizzo e la pratica; d'altra parte questo non può essere considerato un vincolo ferreo, a nostro parere, dato che il mondo del lavoro sta sempre più accogliendo il remote working e le tecnologie, così come gli strumenti e i processi, stanno sempre più facilitando questo tipo di approccio.
 
 Così come alcune condizioni esaltano l'efficacia di XP, altre la limitano fortemente; fra queste, vogliamo citarne un paio, non così inusuali:
@@ -27,19 +27,30 @@ A [QUESTO](http://wiki.c2.com/?WhenIsXpNotAppropriate) link potete trovare un'in
 
 ## Valori di Extreme Programming
 Vediamo i cinque valori sui quali XP si basa:
-* **Semplicità**: *faremo ciò che è necessario e richiesto, ma niente di più. Ciò massimizzerà il valore creato per l'investimento fatto fino ad oggi. Adotteremo piccoli e semplici passi verso il nostro obiettivo e mitigheremo i fallimenti man mano che si verificano. Creeremo qualcosa di cui siamo orgogliosi e lo terremo a lungo termine a costi ragionevoli* .  
+* **Semplicità**: *faremo ciò che è necessario e richiesto, ma niente di più. Ciò massimizzerà il valore creato per l'investimento fatto fino ad oggi. Adotteremo piccoli e semplici passi verso il nostro obiettivo e mitigheremo i fallimenti man mano che si verificano. Creeremo qualcosa di cui siamo orgogliosi e lo terremo a lungo termine a costi ragionevoli* .
 XP incoraggia ad iniziare sempre con la soluzione più semplice ed aggiungere funzionalità extra in un secondo momento. Una delle caratteristiche dell'approccio di Extreme Programming è la progettazione del software basata sulle esigenze contingenti, piuttosto che il design e l'architettura per il domani (spesso viene utilizzato l'acronimo YAGNI - You ain't gonna need it - ovvero - Non ne avrai bisogno -). Anche in XP troviamo più di una caratteristica che ricorda il principio del 'last responsible moment': è bene sottolineare che questo tipo di approccio comporta inevitabilmente un rework; la sua forza, d'altronde, è proprio quella di non ipotizzare soluzioni a lungo termine quando non abbiamo certezze (ricordiamo che una delle condizioni che massimizzano l'efficacia di XP è proprio un contesto con requisiti che cambiano frequentemente).
 Tutto ciò ricorda molto il decimo principio agile: *Simplicity - the art of maximizing the amount of work not done - is essential*.
 
-* **Comunicazione**: *tutti fanno parte del team e comunichiamo faccia a faccia ogni giorno. Lavoreremo insieme su tutto, dai requisiti al codice. Creeremo insieme la migliore soluzione al nostro problema* .  
+* **Comunicazione**: *tutti fanno parte del team e comunichiamo faccia a faccia ogni giorno. Lavoreremo insieme su tutto, dai requisiti al codice. Creeremo insieme la migliore soluzione al nostro problema* .
 Una comunicazione efficace fra il team di sviluppo e gli stakeholder, ma anche all'interno del team favorisce le performance e la qualità del prodotto e, soprattutto, abbassa il rischio di divergenza fra le aspettative dei clienti e l'incremento di prodotto.
 Tutto ciò ricorda molto il secondo valore agile (Customer collaboration over contract negotiation) e il seguente dei cinque valori di Scrum: *Apertura - I team di Scrum cercano costantemente nuove idee e opportunità di apprendimento. I team agili sono anche onesti quando hanno bisogno di aiuto*.
 
-* **Feedback**: *ci impegneremo al massimo sul commitment di ogni iterazione, fornendo software funzionante. Portiamo in demo il nostro software il prima possibile e frequentemente, ascoltiamo i feedback attentamente e apportiamo di conseguenza le modifiche necessarie. Parleremo del progetto e vi adatteremo il nostro processo, non viceversa* .  
+* **Feedback**: *ci impegneremo al massimo sul commitment di ogni iterazione, fornendo software funzionante. Portiamo in demo il nostro software il prima possibile e frequentemente, ascoltiamo i feedback attentamente e apportiamo di conseguenza le modifiche necessarie. Parleremo del progetto e vi adatteremo il nostro processo, non viceversa* .
 Grazie ad un feedback frequente, il team può identificare le aree di improvement e rivedere le sue pratiche e i suoi processi. Il valore del Feedback è strettamente legato anche ai valori di Comunicazione e Semplicità: una comunicazione efficace e diretta esalta la qualità del feedback; un design semplice massimizza l'efficacia del feedback, permettendo una conversazione focalizzata.
 
-* **Respect**: *ognuno di noi prova e dimostra all'altro il rispetto che merita, in quanto team member stimato. Tutti contribuiscono al valore, anche semplicemente con l'entusiasmo. Gli sviluppatori rispettano le competenze dei clienti e viceversa. Il management rispetta il nostro diritto di accettare la responsabilità e ricevere autorità sul nostro lavoro.  
+* **Rispetto**: *ognuno di noi prova e dimostra all'altro il rispetto che merita, in quanto team member stimato. Tutti contribuiscono al valore, anche semplicemente con l'entusiasmo. Gli sviluppatori rispettano le competenze dei clienti e viceversa. Il management rispetta il nostro diritto di accettare la responsabilità e ricevere autorità sul nostro lavoro.
 
+* **Coraggio**: *saremo onesti su progressi e stime. Non ci prepariamo delle scuse per eventuali fallimenti, perché intendiamo avere successo. Non temiamo nulla perché nessuno lavora mai da solo. Ci adatteremo ai cambiamenti ogni volta che accadranno*.
+Come vedremo di seguito, più di una pratica incarna il valore del coraggio. Una di queste pratiche è quella di progettare e codificare sempre per l'oggi e non per il domani. Il coraggio consente essere confidenti con il refactoring del codice, quando necessario e permettere alle modifiche future di essere implementate più facilmente. Ancora: il coraggio è sapere quando eliminare il codice: rimuovere il codice sorgente che è obsoleto, non importa quanto sforzo sia stato fatto per creare quel codice sorgente. Inoltre, coraggio significa perseveranza: un programmatore potrebbe rimanere bloccato su un problema complesso per un giorno intero, quindi risolverlo rapidamente il giorno successivo, ma solo se si usa la perseveranza.
+
+## Regole di Extreme Programming
+Ci riferiamo di seguito alle regole espresse da [Don Wells](http://www.extremeprogramming.org/donwells.html) e riportate su extremeprogramming.org.
+Le regole alle quali ci riferiamo si suddividono in cinque categorie: Planning, Managing, Designing, Coding e Testing.
+
+### Planning
+*Devono essere scritte le User Stories*: Le User Stories sono simili agli Use Cases: vengono utilizzate per creare le stime per la pianificazione. Vedremo in una sezione dedicata i dettagli delle User Stories.
+Le User Stories guidano anche la creazione dei test di accettazione. È necessario creare uno o più test di accettazione automatizzati per verificare che la User Story sia stata correttamente implementata.
+Uno dei maggiori fraintendimenti con le User Stories è il modo in cui differiscono dalle specifiche dei requisiti tradizionali: la più grande differenza sta nel livello di dettaglio, le User Stories dovrebbero fornire dettagli sufficienti per fare una stima (con un rischio ragionevolmente basso) di quanto tempo impiegherà la storia per essere implementata. Quando arriva il momento di implementare la storia, gli sviluppatori andranno al cliente e riceveranno una descrizione dettagliata dei requisiti faccia a faccia.
 
 ## Principi di Extreme Programming
 
