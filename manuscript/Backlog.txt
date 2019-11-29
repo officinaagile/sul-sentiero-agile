@@ -16,6 +16,7 @@ Scrum
 Scrum PLOP: pattern di performance
 Kanban
 Extreme Programming
+User Stories e Story Points
 Lean Software Development
 Le radici: cosa installare con priorità (per non perdersi prima di aver iniziato)
 Inception di un team

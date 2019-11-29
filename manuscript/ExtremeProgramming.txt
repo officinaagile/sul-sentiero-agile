@@ -48,9 +48,24 @@ Ci riferiamo di seguito alle regole espresse da [Don Wells](http://www.extremepr
 Le regole alle quali ci riferiamo si suddividono in cinque categorie: Planning, Managing, Designing, Coding e Testing.
 
 ### Planning
-*Devono essere scritte le User Stories*: Le User Stories sono simili agli Use Cases: vengono utilizzate per creare le stime per la pianificazione. Vedremo in una sezione dedicata i dettagli delle User Stories.
-Le User Stories guidano anche la creazione dei test di accettazione. È necessario creare uno o più test di accettazione automatizzati per verificare che la User Story sia stata correttamente implementata.
-Uno dei maggiori fraintendimenti con le User Stories è il modo in cui differiscono dalle specifiche dei requisiti tradizionali: la più grande differenza sta nel livello di dettaglio, le User Stories dovrebbero fornire dettagli sufficienti per fare una stima (con un rischio ragionevolmente basso) di quanto tempo impiegherà la storia per essere implementata. Quando arriva il momento di implementare la storia, gli sviluppatori andranno al cliente e riceveranno una descrizione dettagliata dei requisiti faccia a faccia.
+*Si utilizzano le User Stories*: le User Stories (ne vedremo i dettagli in una sezione dedicata) sono simili agli Use Cases: vengono utilizzate per creare le stime per la pianificazione.
+Le User Stories guidano anche la creazione dei test di accettazione: è necessario creare uno o più test di accettazione automatizzati per verificare che la User Story sia stata correttamente implementata.  
+Uno dei maggiori fraintendimenti con le User Stories è il modo in cui differiscono dalle specifiche dei requisiti tradizionali: la più grande differenza sta nel livello di dettaglio, le User Stories dovrebbero fornire dettagli sufficienti per fare una stima (con un rischio ragionevolmente basso) di quanto tempo impiegherà la storia per essere implementata. Quando arriva il momento di implementare la storia, gli sviluppatori andranno al cliente e riceveranno una descrizione dettagliata dei requisiti faccia a faccia. Inizialmente le User Stories venivano stimate in settimane ideali di team (una settimana ideale è il tempo che si immagina ci vorrebbe per implementare quella storia se non si avesse nient'altro da fare); come sappiamo, questa unità di misura è stata ampiamente superata dagli Story Points.
+
+*Il Release Planning crea il calendario di Release*: il piano di Release viene usato per creare i piani delle singole iterazioni. Per ottenere una pianificazione che rispecchi le priorità, è importante che le i tecnici prendano le decisioni tecniche e che le 'persone di business' prendano le decisioni di business. Esistono regole da rispettare durante il Release Planning meeting, che permettono di negoziare uno scheduling sul quale tutti possono impegnarsi:
+* la stima delle storie è responsabilità dei tecnici
+* la priorità delle storie è responsabilità del cliente
+
+Le singole iterazioni sono pianificate in dettaglio poco prima dell'inizio di ogni iterazione e non in anticipo. L'incontro di pianificazione del rilascio è stato chiamato il gioco di pianificazione e le regole possono essere trovate al Portland Pattern Repository.
+È possibile pianificare in base al tempo o allo scope: in entrambi i casi la Velocity del progetto viene utilizzata per determinare quante storie potranno essere implementate entro una certa data (pianificazione in base al tempo) o quanto tempo impiegherà lo sviluppo di una serie di storie (pianificazione in base allo scope).  
+Una regola importante da tenere a mente è di non ristimare mai le storie per soddisfare il pressing del business: sottostimare una storia, causerà problemi in seguito.  
+Inoltre è estremamente importante che vi sia un equilibrio fra la tensione tecnica e quella del business e che non vi sia sudditanza né in un verso, né nell'altro, per ottimizzare il processo di prioritizzazione.  
+Un progetto può essere misurato secondo quattro variabili: 
+* scope: può essere gestito dal business
+* risorse: può essere gestito dal management
+* tempi: definito dai tecnici
+* qualità: non è contrattabile.
+
 
 ## Principi di Extreme Programming
 
