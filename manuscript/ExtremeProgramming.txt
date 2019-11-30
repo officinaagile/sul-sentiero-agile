@@ -66,6 +66,20 @@ Un progetto può essere misurato secondo quattro variabili:
 * tempi: definito dai tecnici
 * qualità: non è contrattabile.
 
+*Rilasciare frequentemente piccoli incrementi*: il team di sviluppo deve rilasciare frequentemente piccoli incrementi di valore al cliente, in modo iterativo(ogni settimana o due settimane). Alla fine di ogni iterazione, il prodotto sarà testato, funzionante e production ready.  
+La pianificazione e la demo di piccoli incrementi di prodotto è fondamentale per ottenere feedback preziosi in tempo utile, ma la decisione di mandarli in produzione è del team (tenendo comunque in considerazione che: quanto prima si rilasciano in produzione i nuovi sviluppi, tanto prima otterremo i feedback e avremo più tempo per il fix di eventuali bug).
+
+*Il progetto è strutturato in iterazioni*: lo sviluppo iterativo aggiunge agilità al processo di sviluppo; iterazioni di una settimana sono la scelta migliore anche se sembrano molto brevi. Mantenere costante la lunghezza dell'iterazione durante tutto il progetto è fondamentale sia per l'allineamento e l'organizzazione del team e con gli stakeholder, sia per avere consistenza nell'analisi delle metriche.  
+Sebbene la pianificazione di Release sia spesso necessaria, la pianificazione just-in-time delle iterazioni permette di rimanere sincronizzato e recettivo con le mutevoli esigenze del cliente e del mercato.  
+Il commitment sull'iterazione è una responsabilità forte che si prende il team: i progressi dello sviluppo durante un'iterazione devono essere costantemente monitorati e servono delle azioni specifiche e immediate di ripianificazione appena sia chiaro che il commitment non verrà raggiunto.  
+All'interno dell'iterazione è importante rispettare le priorità date dal cliente e limitare il WIP.
+
+*Ogni iterazione inizia con un planning*: la pianificazione dell'iterazione (che dura da 1 a 3 settimane) serve a produrre un piano di attività di per l'iterazione (priorità e effort). Le User Stories vengono scelte dal cliente partendo dal Release Planning; vengono inoltre selezionati i test di accettazione da correggere. Il cliente seleziona le User Stories ipotizzando una capacity uguale del team corrispondente alla velocity dello Sprint precedente.
+Le User Stories (linguaggio del business) vengono dettagliate dal team in task (linguaggio tecnico).  
+I singoli team member si committano su ogni singolo task e lo stimano (sempre in 1, 2, o 3 giorni ideali, o, come forse siamo più abituati a pensare, in Story Points), tenendo bene in considerazioni gli aspetti tecnici che nel mentre sono emersi, es: complessità architetturale, testing, refactoring.  
+A questo punto la velocity di progetto viene nuovamente utilizzata per determinare se c'é over o under commitment e, eventualmente, aggiustare la pianificazione son l'aiuto del cliente.  
+
+
 
 ## Principi di Extreme Programming
 
