@@ -79,6 +79,17 @@ Le User Stories (linguaggio del business) vengono dettagliate dal team in task (
 I singoli team member si committano su ogni singolo task e lo stimano (sempre in 1, 2, o 3 giorni ideali, o, come forse siamo più abituati a pensare, in Story Points), tenendo bene in considerazioni gli aspetti tecnici che nel mentre sono emersi, es: complessità architetturale, testing, refactoring.  
 A questo punto la velocity di progetto viene nuovamente utilizzata per determinare se c'é over o under commitment e, eventualmente, aggiustare la pianificazione son l'aiuto del cliente.  
 
+### Managing
+*Il team deve avere a disposizione un open space dedicato*: la comunicazione, uno dei conqwue valori di XP è fondamentale per un team che lavora in Extreme Programming e, per migliorare l'efficacia della comunicazione, una delle più semplici ed efficaci azioni che si possono prendere è di mettere le persone nella situazione di poter comunicare senza barriere: si creeranno dei link che porteranno ad efficientare la comunicazione ed abbattere la burocrazia. Alcune possibilità sono: 
+* Posizionare i computer in un'area comune: questo incoraggia e facilita il pair programming.
+* Dedicare delle zone dell'open space ai meeting ricorrenti, come il daily stand up: aiuta le persone a non perdersi la riunione. 
+* Posizionare dei tavoli per i meeting all'interno dell'open space: facilita le persone nell'organizzazione dei meeting e incoraggia ad allineamenti spontanei.
+* Avere a disposizione delle whiteboard permette di ottenere dei meeting più efficaci e aiuta nell'allineamento aggiungendo il canale visivo alla comunicazione.  
+
+*Mantenere un ritmo sostenibile*: i team XP hanno come vincolo quello di produrre entro fine iterazione del software potenzialmente rilasciabile in produzione (potentially shippable product increment), ovvero software completo, testato, integrato, production ready; ogniqualvolta si rilasci del software incompleto, aggiungiamo un rischio non calcolabile al sistema e un effort futuro non stimabile a priori. Poiché la qualità non è una variabile in gioco in XP, e l'over-commitment genera stress e riduce l'efficacia del team, è importante che il team trovi un ritmo sostenibile e si committi su una quantità di lavoro che può realisticamente portare a termine entro la fine dell'iterazione. Basarsi su un ritmo sostenibile, inoltre, aiuta a stabilizzare il rapporto velocity/commitment e rende la pianificazione (in particolare la fase di forecasting) più affidabile.
+
+*Ogni giorno il team si allinea con un Daily Stand Up meeting*: il Daily Stand Up meeting (tipicamente svolto ogni mattina) viene utilizzato per comunicare problemi, soluzioni e aumentare il focus del team sul target dell'iterazione. Durante questo meeting, tutto il team sta in piedi in cerchio.
+Durante il Daily Stand Up meeting, quello che spesso succede è che gli sviluppatori segnalano almeno tre cose; cosa è stato sviluppato ieri, cosa si intende sviluppare oggi e quali problemi stanno causando ritardi.
 
 
 ## Principi di Extreme Programming
