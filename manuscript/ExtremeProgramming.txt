@@ -91,6 +91,17 @@ A questo punto la velocity di progetto viene nuovamente utilizzata per determina
 *Ogni giorno il team si allinea con un Daily Stand Up meeting*: il Daily Stand Up meeting (tipicamente svolto ogni mattina) viene utilizzato per comunicare problemi, soluzioni e aumentare il focus del team sul target dell'iterazione. Durante questo meeting, tutto il team sta in piedi in cerchio.
 Durante il Daily Stand Up meeting, quello che spesso succede è che gli sviluppatori segnalano almeno tre cose; cosa è stato sviluppato ieri, cosa si intende sviluppare oggi e quali problemi stanno causando ritardi.
 
+*La Velocity viene periodicamente misurata*: la Velocity, somma delle stime delle storie completate durante l'iterazione, è una misura di quanto lavoro viene svolto sul progetto. Questa misura è particolarmente utile durante il planning meeting, quando il cliente ipotizza una pianificazione a capacity equivalente alla velocity dell'iterazione precedente. Il team, dopo aver suddiviso le storie in task, potrà committarsi su un numero di task pari a quelli conclusi durante l'iterazione precedente e questo eventuale gap può portare ad una ripianificazione, fino ad arrivare ad un compromesso.  
+Questo semplice meccanismo consente al team di non sovra-committarsi ed aggiustare la velocity dell'iterazione just in time, portando nel backlog eventuali nuove storie solo nel momento in cui ci sia la capacity.  
+Qualora la velocity di un team inizi a stabilizzarsi in modo significativamente più basso rispetto alla media, è opportuno ripianificare la Release, anzichè attenderne il termine, e rivedere la priorità delle storie nel backlog.   Ogni team ha sensibilità e abitudini diverse nella stima delle storie: alcuni stimano alti, altri stimano bassi, questo ci dice che non è possibile fare confronti fra team sulle Velocity.
+
+*Sposta le persone per creare knowledge sharing*: mantenere una stessa persona a lungo termine sullo stesso progetto o sulla stessa area funzionale o tecnica comporta un forte rischio di knowledge hoarding, o ancor peggio, di knowledge loss e determina, verosimilmente, dei colli di bottiglia che limitano l'efficienza di tutto il sistema.
+La cross-contaminazione è fondamentale per evitare di creare isole di conoscenza: due metodi che posso aiutare a mitigare i rischi di cui sopra sono: spostare le persone sulla code base e applicare sistematicamente il pair programming.  
+Una distribuzione delle competenze uniforme crea un efficace bilanciamento di carico all'interno del team e investire su questa cultura incoraggia tutti a provare a lavorare su nuove parti del sistema.
+
+*Cambia il processo, se non funziona*: quando il processo XP, così come descritto, non funziona, modificalo in base alle specifiche necessità del tuo progetto. Inizia seguendo le regole XP, ma non esitare a cambiare ciò che non funziona.  
+Le retrospettive, dove si parla di ciò che funziona e cosa no e si escogitano nuovi modi per migliorare XP rendono il miglioramento del processo una parte normale dello sviluppo. Ricordiamo la sezione del libro dedicata a SHI-HA-RI. 
+
 
 ## Principi di Extreme Programming
 
