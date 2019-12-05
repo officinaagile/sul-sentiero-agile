@@ -3,7 +3,17 @@
 ## Cosa è Extreme Programming
 Extreme Programming (XP) è un framework agile dedicato allo sviluppo software, che definisce valori e pratiche volti alla produzione di codice di qualità.
 A differenza di framework quali Scrum o Kanban, XP non si focalizza sul processo, bensì sulle pratiche ingegneristiche: questo fa sì che Scrum e XP, ad esempio, possano essere adottati allo stesso tempo (vedremo più avanti come questo connubio siano non solo fattibile, ma anche auspicabile).
-XP si basa su cinque **valori** e dodici **pratiche** (o regole); per attuare le pratiche XP, le fondamenta sono quattro attività basilari del processo di sviluppo software: sviluppo del codice, sviluppo del test, ascolto e design.
+XP si basa su cinque **valori**, quattordici **principi** e tredici **pratiche primarie** e undici **pratiche a corollario**; le fondamenta per attuare le pratiche XP sono quattro attività basilari del processo di sviluppo software: sviluppo del codice, sviluppo del test, ascolto e design.
+Cosa caratterizza XP, secondo Kent Beck:
+* I cicli brevi di sviluppo, che si traducono in un flusso di feedback continuo.
+* L'approccio alla pianificazione incrementale: la definizione di un piano generale, che si evolve durante la vita del progetto.
+* La capacità di pianificare l'implementazione di funzionalità  in modo flessibile, rispondendo alle mutevoli esigenze di business.
+* Affidarsi a test automatici per monitorare i progressi dello sviluppo e consentire al sistema di evolvere e evidenziare i difetti in anticipo.
+* La documentazione scritta è sostituita dalla comunicazione orale, dai test e dal codice.
+* La consapevolezza che il design della soluzione evolve fintanto che il sistema vive.
+* Fiducia nella collaborazione attiva di persone motivate.
+* Si affida a pratiche che funzionano sia nelle dinamiche di team, che in quelle di progetto.
+
 Vedremo di seguito perchè e quando è efficace l'adozione di XP e il dettaglio di valori, pratiche e attività.
 
 ## Perchè XP
@@ -43,7 +53,9 @@ Grazie ad un feedback frequente, il team può identificare le aree di improvemen
 * **Coraggio**: *saremo onesti su progressi e stime. Non ci prepariamo delle scuse per eventuali fallimenti, perché intendiamo avere successo. Non temiamo nulla perché nessuno lavora mai da solo. Ci adatteremo ai cambiamenti ogni volta che accadranno*.
 Come vedremo di seguito, più di una pratica incarna il valore del coraggio. Una di queste pratiche è quella di progettare e codificare sempre per l'oggi e non per il domani. Il coraggio consente essere confidenti con il refactoring del codice, quando necessario e permettere alle modifiche future di essere implementate più facilmente. Ancora: il coraggio è sapere quando eliminare il codice: rimuovere il codice sorgente che è obsoleto, non importa quanto sforzo sia stato fatto per creare quel codice sorgente. Inoltre, coraggio significa perseveranza: un programmatore potrebbe rimanere bloccato su un problema complesso per un giorno intero, quindi risolverlo rapidamente il giorno successivo, ma solo se si usa la perseveranza.
 
-## Regole di Extreme Programming
+## Principi di Extreme Programming
+
+## Pratiche di Extreme Programming
 Ci riferiamo di seguito alle regole espresse da [Don Wells](http://www.extremeprogramming.org/donwells.html) e riportate su extremeprogramming.org.
 Le regole alle quali ci riferiamo si suddividono in cinque categorie: Planning, Managing, Designing, Coding e Testing.
 
@@ -103,10 +115,6 @@ Una distribuzione delle competenze uniforme crea un efficace bilanciamento di ca
 Le retrospettive, dove si parla di ciò che funziona e cosa no e si escogitano nuovi modi per migliorare XP rendono il miglioramento del processo una parte normale dello sviluppo. Ricordiamo la sezione del libro dedicata a SHI-HA-RI. 
 
 
-## Principi di Extreme Programming
-
-
-## Pratiche di Extreme Programming
 
 
 ## Risorse
