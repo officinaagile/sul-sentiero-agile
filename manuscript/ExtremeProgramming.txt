@@ -3,7 +3,7 @@
 ## Cosa è Extreme Programming
 Extreme Programming (XP) è un framework agile dedicato allo sviluppo software, che definisce valori e pratiche volti alla produzione di codice di qualità.
 A differenza di framework quali Scrum o Kanban, XP non si focalizza sul processo, bensì sulle pratiche ingegneristiche: questo fa sì che Scrum e XP, ad esempio, possano essere adottati allo stesso tempo (vedremo più avanti come questo connubio siano non solo fattibile, ma anche auspicabile).
-XP si basa su cinque **valori**, quattordici **principi** e tredici **pratiche primarie** e undici **pratiche a corollario**; le fondamenta per attuare le pratiche XP sono quattro attività basilari del processo di sviluppo software: sviluppo del codice, sviluppo del test, ascolto e design.
+XP si basa su cinque **valori**, quattordici **principi** e **ventiquattro pratiche** (tredici **pratiche** e undici **a corollario**); le fondamenta per attuare le pratiche XP sono quattro attività basilari del processo di sviluppo software: sviluppo del codice, sviluppo del test, ascolto e design.
 Cosa caratterizza XP, secondo Kent Beck:
 * I cicli brevi di sviluppo, che si traducono in un flusso di feedback continuo.
 * L'approccio alla pianificazione incrementale: la definizione di un piano generale, che si evolve durante la vita del progetto.
@@ -56,8 +56,33 @@ Come vedremo di seguito, più di una pratica incarna il valore del coraggio. Una
 ## Principi di Extreme Programming
 
 ## Pratiche di Extreme Programming
-Ci riferiamo di seguito alle regole espresse da [Don Wells](http://www.extremeprogramming.org/donwells.html) e riportate su extremeprogramming.org.
-Le regole alle quali ci riferiamo si suddividono in cinque categorie: Planning, Managing, Designing, Coding e Testing.
+Le pratiche (o regole) di Extreme Programming dette 'primarie' possono essere adottate per iniziare ad applicare XP e miliorare il ciclo di sviluppo del software; l'ordine con il quale vengono messe in campo dipende dal contesto nel quale ci troviamo: potremmo aver  bisogno dapprima di migliorare la nostra fase di pianificazione, oppure potrebbe essere prioritario adottare le regole relative alla programmazione per migliorare migliorare la qualità del prodotto.
+
+### Sit Togheter
+*Il team deve avere a disposizione un open space dedicato*: la comunicazione, uno dei cinque valori di XP è fondamentale per un team che lavora in Extreme Programming e, per migliorare l'efficacia della comunicazione, una delle più semplici ed efficaci azioni che si possono prendere è di mettere le persone nella situazione di poter comunicare senza barriere: si creeranno dei link che porteranno ad efficientare la comunicazione ed abbattere la burocrazia. Alcune possibilità sono: 
+* Posizionare i computer in un'area comune: questo incoraggia e facilita il pair programming.
+* Dedicare delle zone dell'open space ai meeting ricorrenti, come il daily stand up: aiuta le persone a non perdersi la riunione. 
+* Posizionare dei tavoli per i meeting all'interno dell'open space: facilita le persone nell'organizzazione dei meeting e incoraggia ad allineamenti spontanei.
+* Avere a disposizione delle whiteboard permette di ottenere dei meeting più efficaci e aiuta nell'allineamento aggiungendo il canale visivo alla comunicazione.  
+
+### Whole Team
+*Un team deve avere tutte le competenze necessarie per il successo del progetto*: questa è l'idea di cross-functional team, presente anche il altri framewor, come Scrum. Lo spirito di squadra e l'unione di intenti permette al team di essere resiliente e adattivo. Il team cresce e accresce le sue competenze coltivando la collaborazione e la cooperazione; il team può accogliere nuovi membri se servono nuove skill; se, invece, qualcuno dovesse risultare non più necessario, allora sarà per lui l'occasione di esserlo altrove.  
+Un team di oltre dodici persone inizia ad essere disfunzionale a livello comunicativo: mantenere una dimensione adeguata del team è importante per massimizzarne l'efficacia. Ricordiamo che Scrum consiglia che la dimensione di un team sia non minore di tre persone e non maggiore di nove.
+
+### Informative Workspace
+*Lo spazio di lavoro deve rispecchiare il tuo lavoro*: un osservatore interessato dovrebbe essere in grado, attraversando il tuo workspace, di ottenere un'idea generale di come sta andando il progetto in quindici secondi. Molti team implementano (parzialmente) questa pratica utilizzando post-it e board cartacee attaccati al muro. L'ordinamento delle card trasmette, spazialmente, informazioni rapide.  
+Lo spazio di lavoro deve anche fare attenzione ad altre necessità: avere a disposizione acqua e snack offre comfort e incoraggiare interazioni sociali positive. La pulizia e l'ordine lascia le menti libere di pensare ai problemi. Mentre la fase di programmazione viene svolta in open space, altri spazi separati potrebbero lasciare alle persone un po' di privacy, in orari dedicati.
+
+### Energized Work
+*Lavora solo quante più ore puoi essere produttivo e solo
+quante ore riesci a sostenere*: andare in burnout e rendere improduttivi i prossimi giorni di lavoro non fa bene né alla persona, né al team. In un  progetto software non è difficile introdurre degli errori e smettere di produrre valore, ma quando si è stanchi è difficile saperlo riconoscere. Il consiglio è di non dedicare più tempo al lavoro, ma sfruttare meglio il tempo: ad esempio, potresti usare il seguente working agreement in due delle ore che quotidianamente dedichi allo sviluppo: spegni il telefono e le notifiche delle email, questo potrà portare già un miglioramento evidente.
+
+
+
+
+
+
+
 
 ### Planning
 *Si utilizzano le User Stories*: le User Stories (ne vedremo i dettagli in una sezione dedicata) sono simili agli Use Cases: vengono utilizzate per creare le stime per la pianificazione.
@@ -92,12 +117,6 @@ I singoli team member si committano su ogni singolo task e lo stimano (sempre in
 A questo punto la velocity di progetto viene nuovamente utilizzata per determinare se c'é over o under commitment e, eventualmente, aggiustare la pianificazione son l'aiuto del cliente.  
 
 ### Managing
-*Il team deve avere a disposizione un open space dedicato*: la comunicazione, uno dei conqwue valori di XP è fondamentale per un team che lavora in Extreme Programming e, per migliorare l'efficacia della comunicazione, una delle più semplici ed efficaci azioni che si possono prendere è di mettere le persone nella situazione di poter comunicare senza barriere: si creeranno dei link che porteranno ad efficientare la comunicazione ed abbattere la burocrazia. Alcune possibilità sono: 
-* Posizionare i computer in un'area comune: questo incoraggia e facilita il pair programming.
-* Dedicare delle zone dell'open space ai meeting ricorrenti, come il daily stand up: aiuta le persone a non perdersi la riunione. 
-* Posizionare dei tavoli per i meeting all'interno dell'open space: facilita le persone nell'organizzazione dei meeting e incoraggia ad allineamenti spontanei.
-* Avere a disposizione delle whiteboard permette di ottenere dei meeting più efficaci e aiuta nell'allineamento aggiungendo il canale visivo alla comunicazione.  
-
 *Mantenere un ritmo sostenibile*: i team XP hanno come vincolo quello di produrre entro fine iterazione del software potenzialmente rilasciabile in produzione (potentially shippable product increment), ovvero software completo, testato, integrato, production ready; ogniqualvolta si rilasci del software incompleto, aggiungiamo un rischio non calcolabile al sistema e un effort futuro non stimabile a priori. Poiché la qualità non è una variabile in gioco in XP, e l'over-commitment genera stress e riduce l'efficacia del team, è importante che il team trovi un ritmo sostenibile e si committi su una quantità di lavoro che può realisticamente portare a termine entro la fine dell'iterazione. Basarsi su un ritmo sostenibile, inoltre, aiuta a stabilizzare il rapporto velocity/commitment e rende la pianificazione (in particolare la fase di forecasting) più affidabile.
 
 *Ogni giorno il team si allinea con un Daily Stand Up meeting*: il Daily Stand Up meeting (tipicamente svolto ogni mattina) viene utilizzato per comunicare problemi, soluzioni e aumentare il focus del team sul target dell'iterazione. Durante questo meeting, tutto il team sta in piedi in cerchio.
