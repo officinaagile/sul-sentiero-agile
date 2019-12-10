@@ -77,6 +77,13 @@ Lo spazio di lavoro deve anche fare attenzione ad altre necessità: avere a disp
 *Lavora solo quante più ore puoi essere produttivo e solo
 quante ore riesci a sostenere*: andare in burnout e rendere improduttivi i prossimi giorni di lavoro non fa bene né alla persona, né al team. In un  progetto software non è difficile introdurre degli errori e smettere di produrre valore, ma quando si è stanchi è difficile saperlo riconoscere. Il consiglio è di non dedicare più tempo al lavoro, ma sfruttare meglio il tempo: ad esempio, potresti usare il seguente working agreement in due delle ore che quotidianamente dedichi allo sviluppo: spegni il telefono e le notifiche delle email, questo potrà portare già un miglioramento evidente.
 
+### Pair Programming
+*Scrivi il codice in coppia allo stesso PC*: una delle pratiche più note e più utilizzate di XP, il pair programming è un dialogo fra due persone che programmano simultaneamente, esaltando, in tal modo, le fasi di analisi, design e test.  
+Il pair aiuta a chiarirsi le idee, facilita l'allineamento, esalta il principio della '[Collective Code Ownership](https://martinfowler.com/bliki/CodeOwnership.html)' e mantiene alta la produttività: quando una persona è confusa, o frustrata, l'altra persona della coppia prende l'iniziativa. Quando si è in una fase di prototipazione o di indagine e si ritiene più efficace lavorare da soli, magari in parallelo, lo si può fare; in un secondo momento ci si allinea con il team, mantenendo il focus più sull'idea, che sul codice: questo permette di non condizionare gli altri sulla specifica soluzione e mettersi nelle condizioni di poter evolvere il sistema in modo collaborativo.
+
+### Pairing and Personal Space
+*Tieni in considerazione che ogni persona ha una sensibilità diversa nell'utilizzo dello spazio fisico*: per alcune culture è più comune avere una prossimità fisica con il proprio interlocutore, in altri casi le persone sono più a loro agio mantenendo una maggiore distanza. Dobbiamo tenere in considerazione entrambi i casi per poter lavorare efficacemente con i nostri colleghi. Anche e soprattutto quando si lavora in pair, è fondamentale tenere in considerazione e rispettare le caratteristiche personali, dando la giusta attenzione ai segnali che le altre persone ti mandano.
+
 
 
 
