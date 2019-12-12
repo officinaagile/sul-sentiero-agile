@@ -14,7 +14,7 @@ Cosa caratterizza XP, secondo Kent Beck:
 * Fiducia nella collaborazione attiva di persone motivate.
 * Si affida a pratiche che funzionano sia nelle dinamiche di team, che in quelle di progetto.
 
-Vedremo di seguito perchè e quando è efficace l'adozione di XP e il dettaglio di valori, pratiche e attività.
+Vedremo di seguito perchè quando è efficace l'adozione di XP e il dettaglio di valori, pratiche e attività.
 
 ## Perchè XP
 Extreme Programming è stato sviluppato da [Kent Beck](https://www.kentbeck.com/) (uno dei firmatari del Manifesto Agile) a partire dal 1996 ed è stato formalizzato per la prima volta dallo stesso Beck nel 1999 nel suo libro ['Extreme Programming Explained'](https://www.amazon.it/Extreme-Programming-Explained-Embrace-Change/dp/0201616416/ref=sr_1_4?adgrpid=52195471586&gclid=CjwKCAiA8ejuBRAaEiwAn-iJ3nL2YKKMSpv8GWJuONPUbyVXEqSKo-kI4mr-S-bzxhyKqjj5xHrAzBoC9YEQAvD_BwE&hvadid=255171266054&hvdev=c&hvlocphy=1008389&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=14148274798741980072&hvtargid=kwd-299811065929&hydadcr=18602_1737172&keywords=extreme+programming+explained&qid=1574595244&sr=8-4) (la seconda edizione del libro è disponibile su Amazon [QUI](https://www.amazon.it/Extreme-Programming-Explained-Embrace-Paperback/dp/B00M0O8952/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Extreme+Programming+Explained%3A+Embrace+Change%2C+2nd+Edition&qid=1574980117&sr=8-1)).
@@ -106,7 +106,39 @@ Inizia la settimana scrivendo test automatici che verranno eseguiti quando
 le storie sono completate. Con un ciclo di sviluppo così breve e con un piano di test pronto, dopo soli due giorni sarà facile capire se la pianificazione sarà rispettata o meno.  
 Kent Beck punta molto sul valore di suddividere le storie in task, avere per ogni task il commitment e la stima di un team member; questo approccio tende a valorizzare il senso di ownership; Daniel Pink chiama questo aspetto 'Mastery', nel suo libro [Drive](https://www.danpink.com/books/drive).  
 
+### Quarterly Cycle
+*Pianifica il lavoro un trimestre alla volta*: ogni tre mesi rifletti sul team, sul progetto, sul suo progresso e sull'allineamento sui macro-obiettivi.  
+Durante la pianificazione trimestrale:
+* identifica i colli di bottiglia;
+* avvia le azioni correttive
+* pianifica le epiche del trimestre
+* scegli le storie per indirizzare i Temi
+* focalizzati sulla big picture, dove il progetto si inquadra all'interno dell'organizzazione.
 
+Il trimestre è una scala temporale largamente utilizzata all'interno delle organizzazioni: questo aiuta a sincronizzarsi con altre attività di business dell'azienda e con i fornitori.
+Differenziare i Temi (o Epiche) dalle storie serve anche a contrastare la tendenza dei team a concentrarsi sui dettagli, senza riflettere sul quadro generale. Inoltre i Temi sono estremamente utili per disegnare una roadmap.
+
+### Slack
+*Nei tuoi piani introduci delle piccole attività che possono essere eliminate se sei in ritardo*: è importante rispettare il commitment per coltivare un clima di fiducia; raggiungere pochi obiettivi concordati permettono di mantenere un rapporto saldo.  
+Lo Slack time può essere strutturato in molti modi: possiamo pianificare una Geek Week, oppure riservare il 20% della banda a Spike e attività di innovazione.
+
+### Ten-Minute Build
+*Esegui la build del sistema e tutti i test in dieci minuti*: una build che impiega più di dieci minuti verrà eseguita molto meno spesso e perderai delle importanti opportunità per ottenere un feedback. Una build più breve non ti constringe a fare una pausa caffè nell'attesa. Un processo automatizzato di esecuzione della build e di tutti i test che impiega meno di dieci minuti mette nelle condizioni gli sviluppatori di potervi lavorare e apportare miglioramenti continuamente.
+
+### Continuous Integration
+*Integra e testa le modifiche dopo non più di un paio di ore*: la fase di integrazione è spesso imprevedibile: se non eseguito frequentemente, potrebbe richiedere più tempo di quello dedicato allo sviluppo.  
+I modelli di integrazione possono essere sincroni (concludo le modifiche al codice, le integro, quindi vengono eseguiti i test e la build, ne attendo il termine e verifico che tutto sia corretto prima di ricominciare a programmare), oppure asincroni (integro le modifiche e ricomincio a programmare; i test e la build vengono eseguiti con un certo delay e vengo notificato dell'esito da una mail o una notifica su un radiator). Kent Beck consiglia di tendere verso l'integrazione sincrona, cosicché la coppia possa avere il tempo di riflettere su ciò che ha fatto, nel momento in cui l'ha fatto.
+
+### Test-First Programming
+*Scrivi un test automatico che fallisce prima di modificare qualsiasi codice*: il test-first programming indirizza diversi problemi in una sola volta: 
+* Evoluzione minimale dello scope: dichiarando esplicitamente ciò che il programma dovrebbe fare, si evita di scrivere codice 'just in case', che potrebbe non servire, ma potrebbe comunque generare bug.
+* Accoppiamento e coesione: se risulta difficile scrivere il test, questo è un segnale di un probabile problema a livello di design. Un codice è facilmente testabile se è liberamente accoppiato e molto coeso (Coesione significa che una classe dovrebbe rappresentare un unico concetto; Accoppiamento: una classe dipende da un'altra mentre usa gli oggetti della classe)
+* Fiducia: scrivendo codice testato, aiuterete i vostri colleghi ad avere fiducia in voi e nel vostro codice.
+* Ritmo: scrivere prima il test aiuta a essere focalizzati sull'obiettivo e non perdersi nella scrittura del codice.
+
+
+### Incremental Design
+*Investi del tempo ogni giorno nel design del sistema*: quando ci si rende conto che il design dovrebbe essere migliorato per adattarsi alle necessità del progetto, allora è opportuno lavorarci in modo iterativo e incrementale. Tieni sempre in considerazione il rapporto fra i costi dei cambiamenti (di design) e i costi dei bug. Tieni monitorato il tuo sistema e adattalo velocemente alle esigenze, evitare di arrivare nella situazione in cui il costo di un cambiamento sia drasticamente alto. L'indicazione che dà XP sul Design Incrementale (o emergente) non è che progettare in anticipo sia necessariamente un male, ma il design fatto vicino a quando viene utilizzato è più efficiente. Le best practice che esaltano il design emergente sono il riuso del codice e il continuo refactoring.
 
 
 
