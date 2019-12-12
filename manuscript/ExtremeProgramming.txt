@@ -84,6 +84,29 @@ Il pair aiuta a chiarirsi le idee, facilita l'allineamento, esalta il principio 
 ### Pairing and Personal Space
 *Tieni in considerazione che ogni persona ha una sensibilità diversa nell'utilizzo dello spazio fisico*: per alcune culture è più comune avere una prossimità fisica con il proprio interlocutore, in altri casi le persone sono più a loro agio mantenendo una maggiore distanza. Dobbiamo tenere in considerazione entrambi i casi per poter lavorare efficacemente con i nostri colleghi. Anche e soprattutto quando si lavora in pair, è fondamentale tenere in considerazione e rispettare le caratteristiche personali, dando la giusta attenzione ai segnali che le altre persone ti mandano.
 
+### Stories
+*Pianifica utilizzando funzionalità visibili all'utente*: svincolati dal significato di 'requisito' come work item richiesto, concentrati sul problema del cliente e trova una soluzione innovativa per risolverlo. 
+Le User Story hanno tipicamente le seguenti caratteristiche:
+* hanno una stima, data dal team, che indirettamente si riflette sull'effort necessario per sviluppare la funzionalità;
+* hanno una descrizione breve;
+* sono scritte su una card (solitamente in Post-it).
+
+[Ron Jeffries](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/) ha formalizzato le caratteristiche di una User Story secondo le ormai note 3C:
+* Card: le User Story sono scritte su Card, che contengono la descrizione dell'obiettivo, la priorità e la stima.
+* Conversation: la richiesta della funzionalità (meglio: l'esplicitazione del problema) viene comunicata dal cliente al team di sviluppo attraverso una conversazione (in larga parte verbale).
+* Confirmation: il cliente comunica al team quali Acceptance Test verranno usati per accettare la storia una volta terminata.
+
+### Weekly Cycle
+*Pianifica il lavoro una settimana alla volta*: durante questo meeting:
+* Controlla il progresso del lavoro del team, in relazione a quanto pianificato
+* Chiedi ai clienti di scegliere le storie da pianificare per la settimana successiva
+* Suddividi le storie in task: i team member potranno committarsi sui task e stimarli.
+
+Inizia la settimana scrivendo test automatici che verranno eseguiti quando
+le storie sono completate. Con un ciclo di sviluppo così breve e con un piano di test pronto, dopo soli due giorni sarà facile capire se la pianificazione sarà rispettata o meno.  
+Kent Beck punta molto sul valore di suddividere le storie in task, avere per ogni task il commitment e la stima di un team member; questo approccio tende a valorizzare il senso di ownership; Daniel Pink chiama questo aspetto 'Mastery', nel suo libro [Drive](https://www.danpink.com/books/drive).  
+
+
 
 
 
