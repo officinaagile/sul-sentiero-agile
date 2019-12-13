@@ -58,6 +58,7 @@ Come vedremo di seguito, più di una pratica incarna il valore del coraggio. Una
 ## Pratiche di Extreme Programming
 Le pratiche (o regole) di Extreme Programming dette 'primarie' possono essere adottate per iniziare ad applicare XP e miliorare il ciclo di sviluppo del software; l'ordine con il quale vengono messe in campo dipende dal contesto nel quale ci troviamo: potremmo aver  bisogno dapprima di migliorare la nostra fase di pianificazione, oppure potrebbe essere prioritario adottare le regole relative alla programmazione per migliorare migliorare la qualità del prodotto.
 
+## Pratiche Primarie
 ### Sit Togheter
 *Il team deve avere a disposizione un open space dedicato*: la comunicazione, uno dei cinque valori di XP è fondamentale per un team che lavora in Extreme Programming e, per migliorare l'efficacia della comunicazione, una delle più semplici ed efficaci azioni che si possono prendere è di mettere le persone nella situazione di poter comunicare senza barriere: si creeranno dei link che porteranno ad efficientare la comunicazione ed abbattere la burocrazia. Alcune possibilità sono: 
 * Posizionare i computer in un'area comune: questo incoraggia e facilita il pair programming.
@@ -139,6 +140,10 @@ I modelli di integrazione possono essere sincroni (concludo le modifiche al codi
 
 ### Incremental Design
 *Investi del tempo ogni giorno nel design del sistema*: quando ci si rende conto che il design dovrebbe essere migliorato per adattarsi alle necessità del progetto, allora è opportuno lavorarci in modo iterativo e incrementale. Tieni sempre in considerazione il rapporto fra i costi dei cambiamenti (di design) e i costi dei bug. Tieni monitorato il tuo sistema e adattalo velocemente alle esigenze, evitare di arrivare nella situazione in cui il costo di un cambiamento sia drasticamente alto. L'indicazione che dà XP sul Design Incrementale (o emergente) non è che progettare in anticipo sia necessariamente un male, ma il design fatto vicino a quando viene utilizzato è più efficiente. Le best practice che esaltano il design emergente sono il riuso del codice e il continuo refactoring.
+
+## Pratiche a corollario
+
+
 
 
 
