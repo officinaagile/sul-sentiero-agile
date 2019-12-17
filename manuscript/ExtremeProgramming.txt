@@ -142,7 +142,11 @@ I modelli di integrazione possono essere sincroni (concludo le modifiche al codi
 *Investi del tempo ogni giorno nel design del sistema*: quando ci si rende conto che il design dovrebbe essere migliorato per adattarsi alle necessità del progetto, allora è opportuno lavorarci in modo iterativo e incrementale. Tieni sempre in considerazione il rapporto fra i costi dei cambiamenti (di design) e i costi dei bug. Tieni monitorato il tuo sistema e adattalo velocemente alle esigenze, evitare di arrivare nella situazione in cui il costo di un cambiamento sia drasticamente alto. L'indicazione che dà XP sul Design Incrementale (o emergente) non è che progettare in anticipo sia necessariamente un male, ma il design fatto vicino a quando viene utilizzato è più efficiente. Le best practice che esaltano il design emergente sono il riuso del codice e il continuo refactoring.
 
 ## Pratiche a corollario
+Dopo aver messo in campo le pratiche primarie, è possibile focalizzarsi sulle pratiche a corollario; è importante rispettare l'ordine se si vogliono evitare dei possibili disastri.
+Ad esempio: il Daily Deployment è una pratica che può essere messa in campo solo dopo aver lavorato sulla qualità e aver portato il rate dei difetti vicino allo zero, grazie alle pratiche primarie di Pair Programming, Continuous Integration e Test-First Programming.
 
+### Real Customer Involvement
+Rendi parte del team le persone che sono direttamente influenzate dal prodotto del team. Lascia che i clienti visionari diano il loro contributo durante i Planning trimestrali e quelli settimanali. Se riesci a rendere il prodotto del team veramente prezioso per il cliente, quest'ultimo pagherà pur di partecipare allo sviluppo. Mettendo insieme il cliente finale (chi ha un bisogno) e il team (chi può soddisfare questo bisogno), riuscirai a minimizzare gli sprechi e massimizzare il lavoro non svolto. L'impegno del team sarà quello di soddisfare il cliente con il minimo effort e cercare di mantenere il prodotto meno specifico possibile, in modo che possa soddisfare anche le richieste di altri clienti.
 
 
 
