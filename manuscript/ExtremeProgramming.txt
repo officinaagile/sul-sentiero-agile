@@ -54,9 +54,13 @@ Grazie ad un feedback frequente, il team può identificare le aree di improvemen
 Come vedremo di seguito, più di una pratica incarna il valore del coraggio. Una di queste pratiche è quella di progettare e codificare sempre per l'oggi e non per il domani. Il coraggio consente essere confidenti con il refactoring del codice, quando necessario e permettere alle modifiche future di essere implementate più facilmente. Ancora: il coraggio è sapere quando eliminare il codice: rimuovere il codice sorgente che è obsoleto, non importa quanto sforzo sia stato fatto per creare quel codice sorgente. Inoltre, coraggio significa perseveranza: un programmatore potrebbe rimanere bloccato su un problema complesso per un giorno intero, quindi risolverlo rapidamente il giorno successivo, ma solo se si usa la perseveranza.
 
 ## Principi di Extreme Programming
+I Principi di XP sono visti come una specificazione dei Valori, permettono di dare indicazioni più concrete per guidare il comportamento. Vedremo di seguito i Principi basilari di Extreme Programming.
+
+###Humanity
+
 
 ## Pratiche di Extreme Programming
-Le pratiche (o regole) di Extreme Programming dette 'primarie' possono essere adottate per iniziare ad applicare XP e miliorare il ciclo di sviluppo del software; l'ordine con il quale vengono messe in campo dipende dal contesto nel quale ci troviamo: potremmo aver  bisogno dapprima di migliorare la nostra fase di pianificazione, oppure potrebbe essere prioritario adottare le regole relative alla programmazione per migliorare migliorare la qualità del prodotto.
+Le pratiche (o regole) di Extreme Programming dette 'primarie' possono essere adottate per iniziare ad applicare XP e migliorare il ciclo di sviluppo del software; l'ordine con il quale vengono messe in campo dipende dal contesto nel quale ci troviamo: potremmo aver  bisogno dapprima di migliorare la nostra fase di pianificazione, oppure potrebbe essere prioritario adottare le regole relative alla programmazione per migliorare migliorare la qualità del prodotto.
 
 ## Pratiche Primarie
 ### Sit Togheter
@@ -152,8 +156,38 @@ Rendi parte del team le persone che sono direttamente influenzate dal prodotto d
 Quando devi rimpiazzare un sistema legacy, fallo gradualmente. Bisogna fare attenzione al fatto che non stiamo parlando di come implementare il nuovo codice (es: strangulation vs greenfield), ma di come farne emergere il valore e acquisire i feedback (ovvero: come portarlo in produzione): sostituisci una piccola funzionalità e mandala in produzione raccogliendone i feedback, magari utilizzando un A/B testing: questo ti permetterà di mitigare i rischi di fallimento.
 
 ### Team Continuity
+Mantieni stabili i team efficienti. Le performance di un team non sono date solo dalla somma delle hard skill, ma anche dall'equilibrio che il team stesso riesce a stabilire. Il tutto è maggiore della somma delle parti. Spesso la programmazione delle risorse basata sulle hard skill e sulla schedulazione è una attività di micro-management che porta a una disottimizzazione a livello sistemico. Mantenere team stabili può voler dire che il core team rimane stabile e un limitato numero di team member può fare job rotation in base alla necessità.
 
+### Shrinking Teams
+Man mano che il potenziale di un team aumenta, mantieni stabile il carico di lavoro e riduci gradualmente le sue dimensioni. Quando un team inizia ad avere troppo pochi membri (molto competenti), fondilo con un altro team di ridotte dimensioni. Kent Beck racconta come questa pratica derivi dal Toyota Production System; ho trovato questa idea illuminante: piuttosto che aumentare il carico su un team e renderlo potenzialmente un anello debole come rischio per la delivery, porta le competenze su altri team e fai crescere il sistema.
 
+### Root-Cause Analysis
+Ogniqualvolta venga rilevato un difetto dopo lo sviluppo, elimina il difetto e la sua causa; l'obiettivo è duplice: evitare che il difetto si ripresenti e far sì che il team impari dai propri errori.  
+In XP il fix di un bug si schematizza in 4 passi:
+- Scrivi un end-to-end test che riproduca il difetto;
+- Scrivi un test di unità, con scope più ridotto possibile, che riproduca il difetto;
+- Correggi il sistema in modo che il test di unità passi; questo farà passare anche il test end-to-end (in caso contrario, modifica il test di unità);
+- Una volta che il difetto è risolto, capisci perché il difetto era sfuggito e metti in campo le modifiche necessarie per prevenire questo tipo di difetto in futuro.  
+Taiichi Ohno, padre del Toyota Production System, ci lascia un fondamentale strumento per questa ultima fase: la cosiddetta Five Whys Analysis: chiediti cinque volte il perché il problema si è verificato, raggiungendone la radice e lavora su quella.
+
+### Shared Code
+Chiunque nel team può migliorare qualsiasi parte del sistema in qualunque momento. Avere una responsabilità condivisa sul codice del sistema massimizza la resilienza del team. Una possibile obiezione è che una ownership non definita riduce il senso di accountability: per evitare che questo succeda è opportuno che ci sia un forte senso di responsabilità collettiva all'interno del team; alcune pratiche che possono aiutare nel senso della Collective Code Ownership sono il Pair Programming e la Continuous Integration.
+
+### Code and Tests
+Manutieni solo il codice e i test come artefatti permanenti: la documentazione può essere generata dal codice di produzione e dai test. Questa pratica può essere messa in campo in modo incrementale, riducendo la documentazione prodotta un po' alla volta; ad esempio, il manuale utente potrebbe essere un tipo di documentazione più difficile da superare, rispetto alla documentazione tecnica.
+
+### Single Code Base
+Esiste un unico code stream: puoi sviluppare su un branch temporaneo, ma non lasciare vivo per più di qualche ora. Questa pratica non intende ovviamente limitare la modularità del sistema, si riferisce piuttosto a sottolineare il costo del backporting in caso di più versioni contemporaneamente in produzione. Se si hanno molteplici code base contemporaneamente attive, ci troveremo inesorabilmente in contesti di lavoro bug prone, con alta probabilità di introdurre difetti e regressioni: in questi casi è opportuno mettere in atto un piano per ridurre gradualmente le versioni in produzione.
+
+### Daily Deployment
+Manda in produzione il codice ogni notte: il gap fra il codice in sviluppo e il codice in produzione è un ritardo di feedback che può tradursi in un rischio per lo sviluppo. Questa pratica risulta difficile, se non impossibile da applicare, qualora non siano state messe in campo altre pratiche primarie, in modo da limitare il defect rate, automatizzare l'integrazione e la build del sistema, rendere incrementali il roll out e il roll back del sistema. Il Daily Deployment, inoltre, richiede un processo di product management e, in particolare, di prioritizzazione, estremamente efficace e in sintonia con il cliente, al fine di ricevere feedback immediati sui nuovi sviluppi.
+
+### Negotiated Scope Contract
+I contratti che stipuli con il cliente abbiano tempi, costi e qualità fissi, ma lo scope deve poter essere negoziato in corso dello sviluppo del sistema. Anzichè scrivere contratti di lunga durata che prevedono elevati costi per le change request, scrivi più contratti brevi, con bassi costi per i cambiamenti.
+
+### Pay-Per-Use
+Con i sistemi Pay-Per-Use il sistema addebita i costi al momento dell'utilizzo, rendendo i soldi l'ultimo feedback per lo sviluppo. Questo sistema stimola al miglioramento continuo.  
+Un'alternativa al Pay-Per-Use è  il modello a sottoscrizione, nel quale l'utilizzo del software viene pagato mensilmente o trimestralmente: con questo modello, il team può utilizzare la customer retention come misura dell'efficacia del proprio operato. 
 
 
 
@@ -212,10 +246,4 @@ La cross-contaminazione è fondamentale per evitare di creare isole di conoscenz
 Una distribuzione delle competenze uniforme crea un efficace bilanciamento di carico all'interno del team e investire su questa cultura incoraggia tutti a provare a lavorare su nuove parti del sistema.
 
 *Cambia il processo, se non funziona*: quando il processo XP, così come descritto, non funziona, modificalo in base alle specifiche necessità del tuo progetto. Inizia seguendo le regole XP, ma non esitare a cambiare ciò che non funziona.  
-Le retrospettive, dove si parla di ciò che funziona e cosa no e si escogitano nuovi modi per migliorare XP rendono il miglioramento del processo una parte normale dello sviluppo. Ricordiamo la sezione del libro dedicata a SHI-HA-RI. 
-
-
-
-
-## Risorse
-link al podcast di Officina Agile
+Le retrospettive, dove si parla di ciò che funziona e cosa no e si escogitano nuovi modi per migliorare XP rendono il miglioramento del processo una parte normale dello sviluppo. Ricordiamo la sezione del libro dedicata a SHU-HA-RI. 
