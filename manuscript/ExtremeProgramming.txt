@@ -148,6 +148,16 @@ Ad esempio: il Daily Deployment è una pratica che può essere messa in campo so
 ### Real Customer Involvement
 Rendi parte del team le persone che sono direttamente influenzate dal prodotto del team. Lascia che i clienti visionari diano il loro contributo durante i Planning trimestrali e quelli settimanali. Se riesci a rendere il prodotto del team veramente prezioso per il cliente, quest'ultimo pagherà pur di partecipare allo sviluppo. Mettendo insieme il cliente finale (chi ha un bisogno) e il team (chi può soddisfare questo bisogno), riuscirai a minimizzare gli sprechi e massimizzare il lavoro non svolto. L'impegno del team sarà quello di soddisfare il cliente con il minimo effort e cercare di mantenere il prodotto meno specifico possibile, in modo che possa soddisfare anche le richieste di altri clienti.
 
+### Incremental Deployment
+Quando devi rimpiazzare un sistema legacy, fallo gradualmente. Bisogna fare attenzione al fatto che non stiamo parlando di come implementare il nuovo codice (es: strangulation vs greenfield), ma di come farne emergere il valore e acquisire i feedback (ovvero: come portarlo in produzione): sostituisci una piccola funzionalità e mandala in produzione raccogliendone i feedback, magari utilizzando un A/B testing: questo ti permetterà di mitigare i rischi di fallimento.
+
+### Team Continuity
+
+
+
+
+
+
 
 
 
