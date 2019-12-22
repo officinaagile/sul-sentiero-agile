@@ -91,7 +91,31 @@ I cicli trimestrali e settimanali includono del tempo per la riflessione del tea
 Lo sviluppo software predilige un processo che prevede un flusso continuo, piuttosto che una serie di fasi successive. Prevedere un processo a step porta ad avere una peggiore gestione del rischio, una bassa frequenza del feedback e una scarsa predicibilità. In XP vengono rilasciati piccoli incrementi di valore frequentemente, l'integrazione e la build sono continui e il feedback sulla qualità del proprio lavoro avviene quotidianamente.
 
 ### Opportunity
-   
+Impara a vedere i problemi come opportunità di cambiamento: per raggiungere l'eccellenza, i problemi devono diventare opportunità di apprendimento e di miglioramento. XP, come ogni Agile framework, non è fatto per nascondere i problemi, ma, al contrario, per farli emergere e ti offre principi e pratiche per poterli affrontare; parte dell'essere estremi, per XP, è proprio la scelta consapevole di trasformare ogni problemi in una opportunità: una opportunità per crescere professionalmente, per approfondire delle relazioni e per migliorare il software.
+
+### Redundancy
+I problemi critici (alto impatto, alta probabilità) dovrebbero essere gestiti in più modi contemporaneamente: introdurre ridondanza ha un costo, ma concorre a mitigare i rischi, abbattendo la probabilità di accadimento: affinché un problema si verifichi, infatti, ogni fattore della ridondanza dovrebbe fallire.  Ad esempio, i difetti software, in XP, sono risolti da diverse pratiche: 
+* Pair Programming
+* Continuous Integration
+* Sitting Together
+* Real Customer Involvement
+* Daily Deployment  
+
+### Failure
+Se non conosci il modo migliore per risolvere un problema, allora agisci per fallire in fretta: anche il fallimento ha un importante valore, ovvero la conoscenza e la consapevolezza che ne derivano. Talvolta il fallimento non è una scelta: ad esempio quando non si hanno sufficienti informazioni per poter prendere una scelta ponderata; in tali casi, anziché posticipare l'azione, una scelta vincente potrebbe essere quella di agire sbagliando (consapevolmente): preparati accuratamente per poter accogliere il feedback che deriverà dal fallimento, evidenzia i punti critici, le informazioni mancanti e le opzioni che potrebbero chiarirsi dopo l'attività, che possiamo considerare un esperimento. Questo principio richiama il mantra 'fail fast, fail often', citato ance dal PopcornFlow nella formula 'learn fast, learn often'.
+
+### Quality
+La qualità non è una variabile per la gestione di progetto: sacrificare la qualità non comporta necessariamente un incremento della Velocity, così come una maggiore qualità non comporta necessariamente un calo di Velocity. In XP la gestione di un progetto la si fa negoziando lo scope: i cicli di pianificazione trimestrale e settimanale sono momenti esplicitamente dedicati al monitoraggio e alla contrattazione dello scope. 
+
+### Baby Steps
+Il cambiamento deve essere suddiviso e implementato in piccoli passi: talvolta sembra conveniente attuare cambiamenti radicali tutto in una volta, ma questo approccio è spesso pericoloso. Quando le organizzazioni sono complesse, tanti piccoli cambiamenti possono costituire, insieme, dei cambiamenti radicali.  
+XP traduce in pratiche questo principio attraverso il Test-first programming e la Continuous Integration.
+Due concetti che vogliamo solo accennare qui e approfondiremo in altre sezioni, sono alla base del Lean e del Toyota Production System: 
+* Kaizen: il cambiamento continuo, dato dall'attuazione di numerosi e piccoli cambiamenti incrementali. 
+* Kaikaku: un cambiamento radicale e implementato in un arco temporale limitato
+
+### Accepted Responsibility
+La responsabilità non può essere assegnata; può solo essere accettata. Le pratiche XP rispeccchiano questo principio: le persone del team stimano i task e decidono autonomamente quali assegnarsi. Responsabilità e autorità viaggiano di pari passo: quando sono responsible di una certa attività, devo avere anche l'autonomia (autorità) per poter decidere come metterla in atto.
 
 
 ## Pratiche di Extreme Programming
@@ -223,62 +247,3 @@ I contratti che stipuli con il cliente abbiano tempi, costi e qualità fissi, ma
 ### Pay-Per-Use
 Con i sistemi Pay-Per-Use il sistema addebita i costi al momento dell'utilizzo, rendendo i soldi l'ultimo feedback per lo sviluppo. Questo sistema stimola al miglioramento continuo.  
 Un'alternativa al Pay-Per-Use è  il modello a sottoscrizione, nel quale l'utilizzo del software viene pagato mensilmente o trimestralmente: con questo modello, il team può utilizzare la customer retention come misura dell'efficacia del proprio operato. 
-
-
-
-
-
-
-
-
-
-
-
-### Planning
-*Si utilizzano le User Stories*: le User Stories (ne vedremo i dettagli in una sezione dedicata) sono simili agli Use Cases: vengono utilizzate per creare le stime per la pianificazione.
-Le User Stories guidano anche la creazione dei test di accettazione: è necessario creare uno o più test di accettazione automatizzati per verificare che la User Story sia stata correttamente implementata.  
-Uno dei maggiori fraintendimenti con le User Stories è il modo in cui differiscono dalle specifiche dei requisiti tradizionali: la più grande differenza sta nel livello di dettaglio, le User Stories dovrebbero fornire dettagli sufficienti per fare una stima (con un rischio ragionevolmente basso) di quanto tempo impiegherà la storia per essere implementata. Quando arriva il momento di implementare la storia, gli sviluppatori andranno al cliente e riceveranno una descrizione dettagliata dei requisiti faccia a faccia. Inizialmente le User Stories venivano stimate in settimane ideali di team (una settimana ideale è il tempo che si immagina ci vorrebbe per implementare quella storia se non si avesse nient'altro da fare); come sappiamo, questa unità di misura è stata ampiamente superata dagli Story Points.
-
-*Il Release Planning crea il calendario di Release*: il piano di Release viene usato per creare i piani delle singole iterazioni. Per ottenere una pianificazione che rispecchi le priorità, è importante che le i tecnici prendano le decisioni tecniche e che le 'persone di business' prendano le decisioni di business. Esistono regole da rispettare durante il Release Planning meeting, che permettono di negoziare uno scheduling sul quale tutti possono impegnarsi:
-* la stima delle storie è responsabilità dei tecnici
-* la priorità delle storie è responsabilità del cliente
-
-Le singole iterazioni sono pianificate in dettaglio poco prima dell'inizio di ogni iterazione e non in anticipo. L'incontro di pianificazione del rilascio è stato chiamato il gioco di pianificazione e le regole possono essere trovate al Portland Pattern Repository.
-È possibile pianificare in base al tempo o allo scope: in entrambi i casi la Velocity del progetto viene utilizzata per determinare quante storie potranno essere implementate entro una certa data (pianificazione in base al tempo) o quanto tempo impiegherà lo sviluppo di una serie di storie (pianificazione in base allo scope).  
-Una regola importante da tenere a mente è di non ristimare mai le storie per soddisfare il pressing del business: sottostimare una storia, causerà problemi in seguito.  
-Inoltre è estremamente importante che vi sia un equilibrio fra la tensione tecnica e quella del business e che non vi sia sudditanza né in un verso, né nell'altro, per ottimizzare il processo di prioritizzazione.  
-Un progetto può essere misurato secondo quattro variabili: 
-* scope: può essere gestito dal business
-* risorse: può essere gestito dal management
-* tempi: definito dai tecnici
-* qualità: non è contrattabile.
-
-*Rilasciare frequentemente piccoli incrementi*: il team di sviluppo deve rilasciare frequentemente piccoli incrementi di valore al cliente, in modo iterativo(ogni settimana o due settimane). Alla fine di ogni iterazione, il prodotto sarà testato, funzionante e production ready.  
-La pianificazione e la demo di piccoli incrementi di prodotto è fondamentale per ottenere feedback preziosi in tempo utile, ma la decisione di mandarli in produzione è del team (tenendo comunque in considerazione che: quanto prima si rilasciano in produzione i nuovi sviluppi, tanto prima otterremo i feedback e avremo più tempo per il fix di eventuali bug).
-
-*Il progetto è strutturato in iterazioni*: lo sviluppo iterativo aggiunge agilità al processo di sviluppo; iterazioni di una settimana sono la scelta migliore anche se sembrano molto brevi. Mantenere costante la lunghezza dell'iterazione durante tutto il progetto è fondamentale sia per l'allineamento e l'organizzazione del team e con gli stakeholder, sia per avere consistenza nell'analisi delle metriche.  
-Sebbene la pianificazione di Release sia spesso necessaria, la pianificazione just-in-time delle iterazioni permette di rimanere sincronizzato e recettivo con le mutevoli esigenze del cliente e del mercato.  
-Il commitment sull'iterazione è una responsabilità forte che si prende il team: i progressi dello sviluppo durante un'iterazione devono essere costantemente monitorati e servono delle azioni specifiche e immediate di ripianificazione appena sia chiaro che il commitment non verrà raggiunto.  
-All'interno dell'iterazione è importante rispettare le priorità date dal cliente e limitare il WIP.
-
-*Ogni iterazione inizia con un planning*: la pianificazione dell'iterazione (che dura da 1 a 3 settimane) serve a produrre un piano di attività di per l'iterazione (priorità e effort). Le User Stories vengono scelte dal cliente partendo dal Release Planning; vengono inoltre selezionati i test di accettazione da correggere. Il cliente seleziona le User Stories ipotizzando una capacity uguale del team corrispondente alla velocity dello Sprint precedente.
-Le User Stories (linguaggio del business) vengono dettagliate dal team in task (linguaggio tecnico).  
-I singoli team member si committano su ogni singolo task e lo stimano (sempre in 1, 2, o 3 giorni ideali, o, come forse siamo più abituati a pensare, in Story Points), tenendo bene in considerazioni gli aspetti tecnici che nel mentre sono emersi, es: complessità architetturale, testing, refactoring.  
-A questo punto la velocity di progetto viene nuovamente utilizzata per determinare se c'é over o under commitment e, eventualmente, aggiustare la pianificazione son l'aiuto del cliente.  
-
-### Managing
-*Mantenere un ritmo sostenibile*: i team XP hanno come vincolo quello di produrre entro fine iterazione del software potenzialmente rilasciabile in produzione (potentially shippable product increment), ovvero software completo, testato, integrato, production ready; ogniqualvolta si rilasci del software incompleto, aggiungiamo un rischio non calcolabile al sistema e un effort futuro non stimabile a priori. Poiché la qualità non è una variabile in gioco in XP, e l'over-commitment genera stress e riduce l'efficacia del team, è importante che il team trovi un ritmo sostenibile e si committi su una quantità di lavoro che può realisticamente portare a termine entro la fine dell'iterazione. Basarsi su un ritmo sostenibile, inoltre, aiuta a stabilizzare il rapporto velocity/commitment e rende la pianificazione (in particolare la fase di forecasting) più affidabile.
-
-*Ogni giorno il team si allinea con un Daily Stand Up meeting*: il Daily Stand Up meeting (tipicamente svolto ogni mattina) viene utilizzato per comunicare problemi, soluzioni e aumentare il focus del team sul target dell'iterazione. Durante questo meeting, tutto il team sta in piedi in cerchio.
-Durante il Daily Stand Up meeting, quello che spesso succede è che gli sviluppatori segnalano almeno tre cose; cosa è stato sviluppato ieri, cosa si intende sviluppare oggi e quali problemi stanno causando ritardi.
-
-*La Velocity viene periodicamente misurata*: la Velocity, somma delle stime delle storie completate durante l'iterazione, è una misura di quanto lavoro viene svolto sul progetto. Questa misura è particolarmente utile durante il planning meeting, quando il cliente ipotizza una pianificazione a capacity equivalente alla velocity dell'iterazione precedente. Il team, dopo aver suddiviso le storie in task, potrà committarsi su un numero di task pari a quelli conclusi durante l'iterazione precedente e questo eventuale gap può portare ad una ripianificazione, fino ad arrivare ad un compromesso.  
-Questo semplice meccanismo consente al team di non sovra-committarsi ed aggiustare la velocity dell'iterazione just in time, portando nel backlog eventuali nuove storie solo nel momento in cui ci sia la capacity.  
-Qualora la velocity di un team inizi a stabilizzarsi in modo significativamente più basso rispetto alla media, è opportuno ripianificare la Release, anzichè attenderne il termine, e rivedere la priorità delle storie nel backlog.   Ogni team ha sensibilità e abitudini diverse nella stima delle storie: alcuni stimano alti, altri stimano bassi, questo ci dice che non è possibile fare confronti fra team sulle Velocity.
-
-*Sposta le persone per creare knowledge sharing*: mantenere una stessa persona a lungo termine sullo stesso progetto o sulla stessa area funzionale o tecnica comporta un forte rischio di knowledge hoarding, o ancor peggio, di knowledge loss e determina, verosimilmente, dei colli di bottiglia che limitano l'efficienza di tutto il sistema.
-La cross-contaminazione è fondamentale per evitare di creare isole di conoscenza: due metodi che posso aiutare a mitigare i rischi di cui sopra sono: spostare le persone sulla code base e applicare sistematicamente il pair programming.  
-Una distribuzione delle competenze uniforme crea un efficace bilanciamento di carico all'interno del team e investire su questa cultura incoraggia tutti a provare a lavorare su nuove parti del sistema.
-
-*Cambia il processo, se non funziona*: quando il processo XP, così come descritto, non funziona, modificalo in base alle specifiche necessità del tuo progetto. Inizia seguendo le regole XP, ma non esitare a cambiare ciò che non funziona.  
-Le retrospettive, dove si parla di ciò che funziona e cosa no e si escogitano nuovi modi per migliorare XP rendono il miglioramento del processo una parte normale dello sviluppo. Ricordiamo la sezione del libro dedicata a SHU-HA-RI. 
