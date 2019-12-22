@@ -6,6 +6,7 @@ AgilizzazioneComeIniziare.txt
 Complessitaesperimenti.txt
 Triangolodiferro.txt
 Kanban.txt
+ExtremeProgramming.txt
 wave0.txt
 wave1.txt
 wave2.txt
