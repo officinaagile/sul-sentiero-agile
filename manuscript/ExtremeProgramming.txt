@@ -57,6 +57,41 @@ Come vedremo di seguito, più di una pratica incarna il valore del coraggio. Una
 I Principi di XP sono visti come una specificazione dei Valori, permettono di dare indicazioni più concrete per guidare il comportamento. Vedremo di seguito i Principi basilari di Extreme Programming.
 
 ###Humanity
+Il software è scritto dalle persone: dietro a questo semplice e, a prima vista, scontato principio, c'è una consapevolezza profonda dei bisogni che spesso vengono sottovalutati. Il processo di sviluppo deve tenere in considerazione le necessità della persone; Kent Beck, nella descrizione di questo principio, si riferisce implicitamente alla piramide di Maslow nel descrivere questo principio: 
+- prima di tutto le persone hanno bisogno di sicurezza, per sè stessi e per i propri cari, in modo da essere a loro agio e poter dare il meglio: il posto di lavoro non deve essere a rischio. Maslow esprime queste necessità nei primi tre livelli della piramide: 'Psychological needs', 'Safety needs'.
+- le persone si sentono realizzate quando provano un senso di appartenenza e si identificano in un gruppo, con il quale condividono degli obiettivi, quando possono contribuire alla crescita della società. Maslow esprime queste necessità nei seguenti due livelli della piramide: 'Love and Belonging', 'Esteem'.  
+- le persone hanno bisogno della loro privacy e di spazio per raggiungere i miei obiettivi, che non contrastano con quelli del team. I dettagli della vita privata non rientrano nei piani del team, ma ognuno deve essere libero di poter auto determinarsi e poter dedicare del tempo per sè stesso (sustainable pace). Per Maslow questa è la punta della piramide: Self-actualization.  
+
+### Economics
+Tutto quello che facciamo deve essere pagato da qualcuno: assicurati che tutto quello che fai abbia un valore di business, altrimenti rischi che di ottenere solo un inutile successo tecnico. Le priorità sono date dal business e, spesso, ciò che conviene al business è di fare scelte che anticipano gli introiti e posticipano le uscite: questo principio ha un perfetto connubio con la pratica del Design Incrementale: ogni pratica che segue il principio del Last Responsible Moment tende a difendere le necessità del business.
+
+### Mutual Benefit
+Ogni scelta deve sempre considerare il giusto compromesso fra tutte le parti interessate: quando si prende una decisione, soprattutto quando i vincoli di tempo sono stretti, questo principio va tenuto in considerazione per evitare di fare degli errori che pagheremo in futuro e creare delle situazioni di tensione fra le persone. Un semplice esempio può essere la scrittura di un'ampia documentazione tecnica del software che sto scrivendo: questa potrebbe aiutare un domani un altro sviluppatore, ma sicuramente rallenterà il mio lavoro oggi e costringerà entrambi a un notevole sforzo per la manutenzione e l'aggiornamento della documentazione. Il compromesso è quello di scrivere dei test automatizzati esaustivi, che aiuteranno me a definire il design ed essere più confidente nello sviluppo e nel refactoring, aiuteranno inoltre il prossimo sviluppatore che ne otterrà gli stessi benefici.
+
+### Self-Similarity
+Quando la natura trova una forma che funziona, la usa
+ovunque può; lo stesso principio si applica allo sviluppo del software: prova a copiare la struttura di una soluzione in un nuovo contesto, anche su scala diversa. Per chi già conosce o ha letto di Scrum@Scale, questo principio non suona come nuovo.  
+Pensiamo alla pianificazione trimestrale, dove vengono trattati i Temi e si pianificano le Storie, lo stesso principio su usa su scala settimanale, dove si trattano le Storie e si pianificano i Test (solitamente 'System-Level
+Tests'); quotidianamente tratto i Test, decido quali test di unità sviluppare che mi faranno passare anche il System-Level Test e sviluppo il codice che mi farà passare questi test.  
+
+### Improvement
+Non tendere alla perfezione, ma cerca di perfezionare il tuo processo, il tuo design, le tue storie.
+La frase 'il meglio è nemico del bene', o più precisamente 'Best is the enemy of good enough' dà un senso a questo principio XP, ma non lo chiarisce del tutto: dobbiamo rifuggire l'immobilismo causato dalla ricerca della soluzione perfetta e agire con il meglio che possiamo fare oggi; inoltre dobbiamo agire ogni giorno per perfezionare quello che abbiamo messo in campo: Extreme Programming punta a raggiungere l'eccellenza nello sviluppo software tramite il continuo miglioramento.
+
+### Diversity
+I team di sviluppo software dove ognuno è uguale all'altro non sono efficaci: i team devono essere composti da persone con differenti capacità, attitudini e prospettive, in modo da sfruttare le diversità e l'intelligenza collettiva per trovare soluzioni ai problemi. I conflitti e le diverse opinioni all'interno del team sono considerate da XP delle opportunità e non situazioni da evitare. Il principio di Diversity si traduce nella pratica di Whole Team, che vedremo più avanti.
+
+### Reflection
+I team performanti non si limitano a fare il loro lavoro, ma pensano a come possono farlo meglio, analizzano i loro successi e i loro fallimenti, non nascondono i loro errori, ma li evidenziano per poter imparare da questi.  
+I cicli trimestrali e settimanali includono del tempo per la riflessione del team: il principio di Reflection, oltre ad essere codificato anche nell'Agile Manifesto, risulterà familiare a chi già conosce Scrum. Il momento di riflessione ha due principali vincoli da rispettare:
+* solitamente si analizzano azioni ed accadimenti del passato, cosicché i feedback possano riferirsi a qualcosa di concreto;
+* si prendono azioni per il futuro, in modo da tradurre la riflessione in qualcosa che abbia un valore tangibile.
+
+### Flow
+Lo sviluppo software predilige un processo che prevede un flusso continuo, piuttosto che una serie di fasi successive. Prevedere un processo a step porta ad avere una peggiore gestione del rischio, una bassa frequenza del feedback e una scarsa predicibilità. In XP vengono rilasciati piccoli incrementi di valore frequentemente, l'integrazione e la build sono continui e il feedback sulla qualità del proprio lavoro avviene quotidianamente.
+
+### Opportunity
+   
 
 
 ## Pratiche di Extreme Programming
@@ -109,7 +144,7 @@ Le User Story hanno tipicamente le seguenti caratteristiche:
 
 Inizia la settimana scrivendo test automatici che verranno eseguiti quando
 le storie sono completate. Con un ciclo di sviluppo così breve e con un piano di test pronto, dopo soli due giorni sarà facile capire se la pianificazione sarà rispettata o meno.  
-Kent Beck punta molto sul valore di suddividere le storie in task, avere per ogni task il commitment e la stima di un team member; questo approccio tende a valorizzare il senso di ownership; Daniel Pink chiama questo aspetto 'Mastery', nel suo libro [Drive](https://www.danpink.com/books/drive).  
+Kent Beck punta molto sul valore di suddividere le storie in task, avere per ogni task il commitment e la stima di un team member; questo approccio tende a valorizzare il senso di ownership.  
 
 ### Quarterly Cycle
 *Pianifica il lavoro un trimestre alla volta*: ogni tre mesi rifletti sul team, sul progetto, sul suo progresso e sull'allineamento sui macro-obiettivi.  
