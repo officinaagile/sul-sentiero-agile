@@ -46,7 +46,17 @@ Il Risk Management è compreso nel processo Scrum ed un esempio ne è il process
 
 L'efficacia dell'improvement è direttamente legata alla qualità del feedback, che a sua volta dipende da quanto e come il nostro processo è riuscito ad essere trasparente: questo passaggio dovrebbe aiutare a comprendere l'importanza dei tre pilastri.
 
-### 
+Il processo iterativo incrementale di Scrum si basa sui cinque eventi (Sprint, Planning, Daily, Review, Retrospective) che sono per il team quanto necessario per un efficace allineamento interno ed esterno e riducono, o azzerano, la necessità di ulteriori meeting. Ogni evento, compreso lo Sprint, è time-boxed: questo vuol dire che l'evento non può durare più du una certa quantità di tempo, ma può durare meno.
+
+### Sprint
+Lo Sprint è un periodo di durata fissa durante il quale il team trasforma lo Sprint backlog in incremento di prodotto e conduce gli altri eventi Scrum. 
+Come detto, lo Sprint è time-boxed: la sua durata massima è fissa e non supera un mese (è piuttosto comune usare un time-box di due settimane); lo Sprint può tuttavia terminare prima del previsto, in alcuni casi particolari: infatti, qualora lo Sprint goal dovesse diventare obsoleto, il Product Owner termina lo Sprint prima del suo termine programmato (si parla di Sprint abort o Sprint cancellation) e, dopo averlo chiuso (Review e Retrospective), il PO e il Dev Team avviano lo Sprint successivo.
+
+Durante lo Sprint il Goal rimane quindi invariato, ma lo scope dello Sprint può essere chiarito e rinegoziato fra il PO e il Dev Team, man mano che maggiori dettagli vengono compresi.
+Se la durata dello Sprint è breve, allora sarà basso il rischio di produrre lavoro inutile qualora il Goal dello Sprint diventi obsoleto; dobbiamo chiarire che il solo processo del team non può, tuttavia, assicurare un'ottimale gestione del rischio: tutta l'organizzazione, infatti, deve essere corte e responsiva, organizzata per massimizzare il valore accogliendo il cambiamento.
+
+### Sprint Planning
+
 
 ## Gli artefatti di Scrum
 
