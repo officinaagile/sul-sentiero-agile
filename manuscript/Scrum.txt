@@ -1,0 +1,54 @@
+# Scrum
+  
+## Cosa è Scrum
+Scrum è un framework agile dedicato a supportare lo sviluppo di prodotti in contesti complessi; a differenza di Extreme Programming, Scrum non si dedica alle pratiche tecniche, ma al processo di sviluppo del prodotto.
+Le nozioni base di Scrum sono riportate, dagli ideatori del framework, in una guida, che è possibile consultare liberamente sul sito [Scrum Guides](https://www.scrumguides.org/scrum-guide.html): in questa sezione ci atterremo a quanto riportato nella Scrum Guide per descrivere il framework, cercando di contestualizzarlo secondo la nostra esperienza.
+
+Scrum si caratterizza per essere un framework (ovvero un insieme di indicazioni non prescrittive, legate fra loro da alcune regole) da applicare in contesti complessi per determinare i processi e le tecniche più efficaci al fine di massimizzare il valore prodotto.
+La teoria di Scrum è molto sintetica e semplice da interpretare; comprendere a fondo e saper applicare Scrum richiede invece grande costanza e applicazione.
+
+I tre numeri che sintetizzano Scrum sono:  
+* 3 Ruoli 
+* 5 Eventi
+* 3 Artefatti
+Il 353 è il cuore di Scrum: tutto ruota attorno al 353 ed ogni suo elemento è fondamentale per il giusto equilibrio e l'efficacia del framework; in questa sezione ne vedremo i dettagli.
+
+## Perché Scrum
+Come ormai sappiamo, alla base del nostro viaggio (ed anche di Scrum) ci sono la teoria della complessità e l'empirismo: la storia ha verificato che, quando trattiamo prodotti e contesti complessi, il buon vecchio approccio legacy di Project Management nel quale tutte le attività venivano pianificate a priori da un unico eroe non funziona: dobbiamo quindi strutturarci per adeguare la pianificazione in modo incrementale e allargare il processo decisionale a chi veramente ha le competenze per valutare e decidere; in estrema sintesi, riteniamo che Scrum abbia, fra i suoi principali obiettivi, quello di massimizzare il valore attuando un'oculata gestione del rischio di progetto/prodotto e massimizzando la predicibilità.
+
+## I pilastri di Scrum
+Tre pilastri sostengono Scrum: Trasparenza, Ispezione e Adattamento, essi sono alla base del processo di Continuous Improvement che, in sostanza, è ciò che alimenta Scrum e, probabilmente, tutti i framework agili.
+Per poter implementare il Continuous Improvement in modo efficace e sostenibile, Scrum teorizza che devono essere valorizzate tre pratiche:
+* Trasparenza: tutti gli aspetti di processo significativi devono essere visibili e le informazioni facilmente accessibili.
+* Ispezione: gli artefatti vengono frequentemente ispezionati per verificare eventuali variazioni indesiderate.
+* Adattamento: da un'ispezione ne consegue tipicamente un'adattamento (della pianificazione, del processo e dei working agreements).
+
+Scrum prevede quattro eventi nei quali viene implementata un'azione di inspect and adapt: il Planning, il Daily Meeting, la Review e la Retrospective; ne parleremo in dettaglio più avanti.
+
+## Scrum Team
+Scrum si basa sul concetto di team per implementare pratiche e processi organizzativi atti a massimizzare l'efficacia in un contesto complesso: sappiamo che l'unica costante è il cambiamento ed in questa costante possiamo fondare le basi del nostro processo; è quindi necessario avere un sistema resiliente ed efficace e, al contempo, mantenere la trasparenza necessaria per potersi prontamente adattare al cambiamento.
+Partiamo da questi presupposti per descrivere i ruoli di Scrum:
+* il Product Owner (PO): vogliamo consegnare un prodotto di valore, dove il valore è valutato dal cliente, perciò necessitiamo di qualcuno (il PO) che conosca il mercato, sappia interpretare e valutare le necessità dei clienti in modo da massimizzare l'efficacia del team. Il PO è tipicamente un business man, sa cosa va fatto, ma non sa come; esso deve priorizzare le richieste del mercato e, per questo, il PO è una singola persona e non un comitato. Per quanto detto, fra le responsabilità del PO ci sono le seguenti attività:
+ * Esprimere chiaramente (per gli stakeholder e per il team) e ordinare gli item del backlog, al fine di massimizzare il valore del team di sviluppo.
+ * Assicurarsi che il Product Backlog sia visibile e trasparente a tutti.
+* il Development Team: vogliamo avere un processo di sviluppo efficiente (sfruttare al meglio le potenzialità e le competenze di ognuno), e resiliente (non lavoriamo a silos, ma investiamo sul knowledge sharing e sul lavoro di squadra), perciò lo sviluppo del prodotto non è delegato ai singoli, ma ai team (di dimensioni da 3 a 9 persone); ogni team è composto da tutte le competenze necessarie per poter creare e deliverare valore, il valore che il Product Owner ha ritenuto prioritario. Il team di sviluppo è quindi cross-funzionale e auto-organizzato, la responsabilità individuale rimane all'interno del team, mentre all'esterno la responsabilità è del team nella sua interezza. Il dev team decide autonomamente come portare a casa il valore e lo fa servendosi del suo Scrum Master.
+* lo Scrum Master (o Servant Leader): in un contesto nel quale il PO è focalizzato sul valore e il Dev Team è focalizzato sulla qualità, lo Scrum Master è il trait d'union che cerca di massimizzare l'efficacia dello Scrum Team praticando e divulgando l'agilità; esso aiuta il PO e il Dev Team:
+ * nel massimizzare la trasparenza e l'allineamento sul Product Backlog
+ * nello sperimentare tecniche efficienti per la gestione del backlog
+ * facilitando gli eventi Scrum
+ * facilitando il PO nella pianificazione e nelle altre attività
+ * facilitando il team nell'auto-organizzazione e nelle altre attività
+
+## Gli Eventi Scrum
+Il Risk Management è compreso nel processo Scrum ed un esempio ne è il processo di sviluppo iterativo incrementale, nel quale ad ogni iterazione si vuole: 
+* rilasciare un incremento di prodotto
+* applicare un improvement (inspect and adapt) figlio del feedback dell'iterazione (empirismo). 
+
+L'efficacia dell'improvement è direttamente legata alla qualità del feedback, che a sua volta dipende da quanto e come il nostro processo è riuscito ad essere trasparente: questo passaggio dovrebbe aiutare a comprendere l'importanza dei tre pilastri.
+
+### 
+
+## Gli artefatti di Scrum
+
+## I Valori di Scrum
+ 
