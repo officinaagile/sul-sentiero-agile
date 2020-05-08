@@ -14,12 +14,12 @@ I tre numeri che sintetizzano Scrum sono:
 Il 353 è il cuore di Scrum: tutto ruota attorno al 353 ed ogni suo elemento è fondamentale per il giusto equilibrio e l'efficacia del framework; in questa sezione ne vedremo i dettagli.
 
 ## Perché Scrum
-Come ormai sappiamo, alla base del nostro viaggio (ed anche di Scrum) ci sono la teoria della complessità e l'empirismo: la storia ha verificato che, quando trattiamo prodotti e contesti complessi, il buon vecchio approccio legacy di Project Management nel quale tutte le attività venivano pianificate a priori da un unico eroe non funziona: dobbiamo quindi strutturarci per adeguare la pianificazione in modo incrementale e allargare il processo decisionale a chi veramente ha le competenze per valutare e decidere; in estrema sintesi, riteniamo che Scrum abbia, fra i suoi principali obiettivi, quello di massimizzare il valore attuando un'oculata gestione del rischio di progetto/prodotto e massimizzando la predicibilità.
+Come ormai sappiamo, alla base del nostro viaggio (ed anche di Scrum) ci sono la teoria della complessità e l'empirismo: la storia ha verificato che, quando trattiamo prodotti e contesti complessi, il buon vecchio approccio legacy di Project Management nel quale tutte le attività venivano pianificate a priori, spesso da un unico eroe, non funziona: dobbiamo accettare che la realtà è in continua evoluzione e che le conoscenze sono distribuite; é quindi necessario adeguare la pianificazione in modo incrementale e allargare il processo decisionale a chi veramente ha le competenze per valutare e decidere; in estrema sintesi, riteniamo che Scrum abbia, fra i suoi principali obiettivi, quello di massimizzare il valore attuando un'oculata gestione del rischio di progetto/prodotto e massimizzando la predicibilità.
 
 ## I pilastri di Scrum
-Tre pilastri sostengono Scrum: Trasparenza, Ispezione e Adattamento, essi sono alla base del processo di Continuous Improvement che, in sostanza, è ciò che alimenta Scrum e, probabilmente, tutti i framework agili.
-Per poter implementare il Continuous Improvement in modo efficace e sostenibile, Scrum teorizza che devono essere valorizzate tre pratiche:
-* Trasparenza: tutti gli aspetti di processo significativi devono essere visibili e le informazioni facilmente accessibili.
+Tre pilastri sostengono Scrum: Trasparenza, Ispezione e Adattamento, essi sono alla base del processo di Continuous Improvement che, in sostanza, è ciò che alimenta Scrum e, verosimilmente, tutti i framework agili.
+Per poter implementare il Continuous Improvement in modo efficace e sostenibile, Scrum teorizza che devono essere valorizzate tre 'pratiche', costantemente monitorate dal ruolo dello Scrum Master:
+* Trasparenza: tutti gli aspetti di processo significativi devono essere visibili e le informazioni facilmente accessibili; questo è pilastro è uno strumento cardine per il Risk Management in Scrum.
 * Ispezione: gli artefatti vengono frequentemente ispezionati per verificare eventuali variazioni indesiderate.
 * Adattamento: da un'ispezione ne consegue tipicamente un'adattamento (della pianificazione, del processo e dei working agreements).
 
@@ -56,9 +56,134 @@ Durante lo Sprint il Goal rimane quindi invariato, ma lo scope dello Sprint può
 Se la durata dello Sprint è breve, allora sarà basso il rischio di produrre lavoro inutile qualora il Goal dello Sprint diventi obsoleto; dobbiamo chiarire che il solo processo del team non può, tuttavia, assicurare un'ottimale gestione del rischio: tutta l'organizzazione, infatti, deve essere corte e responsiva, organizzata per massimizzare il valore accogliendo il cambiamento.
 
 ### Sprint Planning
+Il lavoro eseguito durante uno Sprint viene preventivamente pianificato durante un evento time-boxed chiamato Sprint Planning. A questo evento partecipa il Team di Sviluppo, il Product Owner, lo Scrum Master e, se necessario, alcuni SME invitati dal team, la sua durata dovrebbe essere inferiore alle otto ore, in input a questo meeting ci sono: 
+* il Product Backlog
+* il Product Increment dello Sprint precedente
+* la capacity del team
+* le performance che il team ha ottenuto nello Sprint precedente (si parla comunemente di 'Velocity').
 
+L'output del Planning è lo Sprint Backlog e lo Sprint Goal. Al termine del Planning, il Team di Sviluppo si committa sul Goal di Sprint, ovvero un incremento di prodotto determinato da una lista ordinata di storie, e si è chiarito il come questo obiettivo verrà raggiunto. Nella pratica, quello che tipicamente succede è che alcune storie (secondo un ordine di priorità definito dal Product Owner) vengono selezionate dal Product Backlog e portate nello Sprint Backlog in base alla capacity del team; il dev team definisce il commitment point e, solitamente, vengono selezionate alcune storie stretch, eccedenti la capacity, sulle quali non c'è il commitment del team, ma che possono essere lavorate qualora ce ne sia l'opportunità.
+
+Il Product Owner arriva allo Sprint Planning con un'idea dello Sprint Goal: l'obiettivo che intende centrare attraverso gli sviluppi che verranno selezionati per lo Sprint, ma formalizza questo obiettivo durante il Planning e con la collaborazione del Dev Team, che decide il commitment point (su quanti backlog item si committerà durante lo Sprint) e, di conseguenza, influenza significativamente la definizione dello Sprint Goal.
+
+Lo Sprint Goal aiuta il team a focalizzarsi su un obiettivo comune, a limitare il WIP e a comprendere l'obiettivo di business, facendo di conseguenze e le giuste scelte tecniche e le opportune variazioni. 
+
+Nella prima parte del meeting, lo Scrum Team ha definito una lista ordinata di item sui quali si committa e l'obiettivo dello Sprint (il **cosa**); nella seconda parte, invece, il Dev Team deciderà **come** affrontare i backlog item per raggiungere l'obiettivo, tipicamente decomponendo gli item del backlog (le Storie) in task di breve durata (almeno per le prime storie dello Sprint). Qui il ruolo del PO è cruciale sia per fornire al dev team eventuali chiarimenti su alcune storie, sia per trovare dei possibili compromessi.
+
+Al termine del meeting, il Dev Team racconta al Product Owner e allo Scrum Master come ha deciso di auto-organizzarsi per raggiungere lo Sprint Goal.
+
+**Sprint Planning: a cosa fare attenzione**  
+Per nostra diretta esperienza, il Planning è uno degli eventi più cruciali e delicati di Scrum; condividiamo a riguardo i seguenti punti di attenzione:
+*  Un team con scarsa attenzione alla Definition of Ready e alla readiness del backlog, può accettare in Sprint attività che non riuscirà a portare a termine
+* Se il Product Owner non ha chiaro il Product Backlog e le priorità, lo Sprint Goal non sarà definito, o non avrà un formato SMART: lo Sprint intero ne risentirà
+* Se il Product Backlog non è pronto al Planning, il meeting tenderà a durare più del previsto e ne risentirà la parte di definizione dei task
+* Serve allineamento con gli altri team, per assicurarsi di pianificare Spike e varie attività di interesse comune.
+
+### Daily Scrum
+Il Daily Scrum (o Daily Meeting o Stand up Meeting) è un evento quotidiano condotto dal Dev Team, con un time-box di 15 minuti, al quale possono partecipare: 
+* lo Scrum Master per aiutare il team a mantenere il focus e rispettare il time-box
+* chiunque altro nella veste di ascoltatore.
+
+Il Daily viene condotto solitamente al mattino (sempre alla stessa ora) ed è estremamente utile sia per organizzare il lavoro del team, sia per mantenere alto il commitment e il focus, sia per ottenere preziose informazioni sulle previsioni dell'andamento dello Sprint. 
+
+La struttura del Daily può variare da team a team, ma solitamente si utilizza un timer per rispettare il time-box e permettere ad ognuno di poter parlare e, inoltre, tutti i team member sono soliti rispondere a queste tre domande:
+* Cosa ho fatto ieri per permettere al team di raggiungere lo Sprint Goal?
+* Cosa farò oggi che aiuterà il team a raggiungere lo Sprint Goal?
+* Vedi qualche impedimento che potrebbe impedire al team di raggiungere lo Sprint Goal?
+
+Molto spesso capita che il team, al termine dei 15 minuti, si prenda ancora un breve intervallo di tempo per ripianificare insieme la giornata e concordare le relative azioni.
+
+**Daily Scrum: a cosa fare attenzione**  
+Per la nostra esperienza, le seguenti anomalie sono piuttosto comuni:
+* i team tendono a non rispettare l'orario di inizio e il timebox del meeting: un evento ricorrente sul calendario e un pomodoro durante il meeting possono aiutare; inoltre è opportuno che lo Scrum Master sia presente ai primi Daily del team e che li aiuti a capire come condurre il meeting, fintanto che il team non avrà preso padronanza con questa cerimonia
+* talvolta si tende a dimenticare su cosa abbiamo lavorato il giorno precedente: questo può essere sintomo di uno scarso pair, di un eccessivo context switching e di un utilizzo scorretto dei tool di issue tracking
+* spesso capita che non ci sia chiarezza sul secondo punto del Daily: ricordiamoci che alla domanda "Cosa farò oggi che aiuterà il team a raggiungere lo Sprint Goal?" ci si aspetta una risposta che includa un commitment (ovvero un obiettivo chiaro) e non un generico impegno sulle attività dello Sprint: senza chiarezza su questo punto, l'auto-organizzazione del team potrebbe risentirne
+* in assenza dello Scrum Master, capita spesso che il team dimentichi di porsi il terzo quesito del Daily: se non c'è attenzione agli impedimenti, le performance del team ne potrebbe risentire fortemente; se non utilizziamo l'intelligenza collettiva per migliorare, non ha molto senso lavorare in team. 
+
+### Sprint Review
+La Review è un meeting con time-box di massimo 4 ore, che viene condotto dallo Scrum Team (Dev Team, Product Owner e Scrum Master) al termine di ogni Sprint. In input alla Review c'è il Product Increment, in output c'è un Product Backlog aggiornato.
+
+Se consideriamo questo evento nell'essenza originale di Scrum, senza scomodare dei framework di scaling, abbiamo due distinti obiettivi che coesistono in questo singolo evento due distinti: da una parte il Dev Team vuole presentare il Product Increment, ovvero i risultati ottenuti dal team con le sue fatiche durante lo Sprint, con l'aspettativa che questo soddisfi le esigenze del Product Owner (ricordiamo qui il concetto di Definition of Done); dall'altra parte il Product Owner, che ha tutto l'interesse a revisionare ed accettare le storie del Dev Team e a mostrarle agli stakeholder (invitati dal PO) affinché possa ricevere e integrare i loro feedback all'interno del Product Backlog, che, di conseguenza, verrà aggiornato.
+
+Una possibile agenda per la Review è la seguente:
+* il Dev Team sottopone il Product Increment al Product Owner, dimostrando le storie sviluppate; di conseguenza il PO accetta o rifiuta le storie del team; le storie rifiutate ritornano nel Product Backlog
+* il PO mostra il Product Increment accettato agli stakeholder; il Dev Team è a disposizione per le Demo e per rispondere alle domande
+* lo Scrum Team recepisce i feedback degli stakeholder e instaura con loro una conversazione al fine di rivedere gli obiettivi e le priorità, aggiornando le stime di delivery, il budget, la timeline
+* il PO aggiorna il Product Backlog e ipotizza le prossime storie in priorità per il successivo Sprint, condividendole con gli stakeholder
+
+**Sprint Review: a cosa fare attenzione**  
+In base alla nostra esperienza, consigliamo di fare particolare attenzione ai seguenti punti:
+* il PO è interessato a massimizzare le performance del team, potrebbe avere difficoltà a rifiutare le storie "non Done": una DoD aggiornata, trasparente e manutenuta può aiutare lo Scrum Master a evidenziare tale anomalia
+* un Dev Team poco responsabilizzato o poco autonomo sul fronte della qualità, potrebbe portare in Review storie "non Done" senza segnalare al PO eventuali carenze tecniche: conviene mantenere delle metriche aggiornate anche sul fronte della qualità e fare particolare attenzione ai Requisiti Non Funzionali, sia nella Definition of Ready, sia nella Definition of Done.
+* un PO troppo lontano dal mercato e dai clienti potrebbe far fatica a coinvolgere gli stakeholder: senza un feedback tempestivo, si rischia di avere un backlog mal prioritizzato e, di conseguenza, impiegare l'effort del team sugli obiettivi sbagliati.
+
+### Sprint Retrospective
+Al termine di ogni Sprint, la retrospettiva è una cerimonia fondamentale del processo di inspect and adapt.  
+In input alla Retrospettiva c'è lo Sprint appena concluso, in output c'è un piano di improvement.
+In questo meeting il  protagonista è il Dev Team, ma anche lo Scrum Master deve esprimere tutte le sue doti di facilitatore e il Product Owner può risultare fondamentale per individuare azioni concrete e efficaci.
+Il time-box di questo meeting è al massimo di 3 ore e lo Scrum Master dovrà assicurarsi che venga rispettato; lo spirito positivo e costruttivo del meeting viene talvolta sottolineato all'inizio del meeting recitando la cosiddetta [Direttiva Prima](https://retrospectivewiki.org/index.php?title=The_Prime_Directive), che non è però uno strumento 'ufficiale' e non è accettato e condiviso da tutti. Ogni rappresentate dello Scrum Team partecipa a questo meeting per migliorare quello che rappresenta: il Dev Team per l'auto-organizzazione del team, lo Scrum Master per il processo Scrum, il Product Owner per la gestione del Product Backlog.  
+L'obiettivo della Retrospettiva è di:
+* ispezionare com'è andato lo Sprint appena concluso, in riferimento alle persone, le relazioni, il processo e gli strumenti
+* identificare e ordinare gli elementi che più hanno inciso positivamente e quelli che potrebbero portare i maggiori miglioramenti
+* creare un piano per implementare questi miglioramenti
+
+Gli improvement che emergono come output dalla retrospettiva vengono pianificati dal team nello Sprint successivo.
+
+**Sprint Retrospective: a cosa fare attenzione**  
+Per nostra esperienza, consideriamo i seguenti dei punti di attenzione per le retrospettive:
+* I team poco maturi (vedi Tuckman Model) tendono a non affrontare i problemi: questo comporta inevitabilmente ad ottenere dei piani di improvement poco efficaci o nulli; è importante lavorare sulla maturità del team e coinvolgere tutto lo Scrum Team quando necessario
+* I team poco responsabilizzati tendono a vedere tutti i problemi all'esterno: quando il team non ha (o non pensa di avere) la necessaria autonomia per mettere in campo azioni concrete, il piano di improvement prevederà principalmente azioni in carico ad attori esterni e, di conseguenza, sarà inattuabile. Consigliamo di lavorare sulla responsabilizzazione del team.
+* Team che non hanno confidenza con questo evento tendono a portare problemi non azionabili e non uscire dal meeting con un piano: lo Scrum Master dovrebbe stare attento al time-box e assicurarsi di produrre un piano entro il termine del meeting.
+* Team poco sensibili al concetto di Continuous Improvement tendono a non mettere in campo il piano: consigliamo di pianificare le azioni di improvement in testa allo Sprint Backlog e visualizzarle nella Sprint Board.
 
 ## Gli artefatti di Scrum
+Gli artefatti, in Scrum, non sono solamente dei prodotti necessari affinché lo Scrum Team crei valore all'interno dello Sprint, essi sono anche strumenti fondamentali per esaltare i pilastri di Scrum: la trasparenza, l'ispezione e l'adattamento trovano la loro massima espressione implementativa proprio nei tre artefatti: il Product Backlog, lo Sprint Backlog e il Product Increment.
+
+### Product Backlog
+Il Product Backlog è l'unica sorgente di requisiti (nuove funzionalità e modifiche) che comportino qualsiasi modifica al prodotto; essa è espressa in una lista ordinata e l'unico responsabile per i contenuti di questa lista, per la sua visibilità e accessibilità e per l'ordinamento è il Product Owner.  
+Le caratteristiche di un Product Backlog sono le seguenti:
+* non è mai completo e si esaurisce solo quando il prodotto esce di produzione
+* è dinamico, varia continuamente e si adatta al contesto (requisiti di business, condizioni del mercato, tecnologia)
+* può essere condiviso da più team, ma è unico per un prodotto.
+
+Gli elementi del Product Backlog hanno tipicamente i seguenti attributi:
+* hanno una descrizione (spesso nel formato User Story: Come <tipo_utente>, Voglio <obiettivo>, Affinché <motivazione>)
+* sono ordinati (con un qualche algoritmo di prioritizzazione, che tipicamente include i seguenti fattori: valore, time criticality, effort e readiness)
+* hanno una stima (spesso vengono usati gli Story Points)
+* hanno un valore (direttamente o indirettamente collegati al business value)
+* include una descrizione di come testare la storie, affinché possa rispettare la Definition of Done.
+
+Il Product Backlog si evolve tramite la contribuzione di tutti gli stakeholder (questo artefatto deve essere pubblico, visibile, trasparente), mediata dal Product Owner (il responsabile dell'artefatto), tramite un processo di refinement: ovvero l'attività ricorrente alla quale collaborano il PO, il dev team e tutti gli stakeholder che possono contribuire a dare informazioni e che ha come obiettivi:
+* aggiungere informazioni nel backlog e, di conseguenza aggiungere o rimuovere item nel/dal backlog
+* stimare gli elementi del backlog (la stima dell'effort viene data dal dev team, mentre la stima del valore viene data dal PO)
+* ordinare gli elementi del backlog, in base all'algoritmo di prioritizzazione scelto dal PO.
+* rendere Ready (cioè pronti ad essere presi in carico dal team e pianificati in Sprint) gli elementi in testa al backlog: questo processo viene formalizzato rispettando la Definition of Ready
+
+Dato un Backlog di prodotto, il Product Owner traccia il lavoro svolto e quello rimanente basandosi sulla stima del team e valuta queste informazioni per aggiornare gli stakeholder sul progresso del progetto (strumenti comuni di monitoraggio di queste informazioni sono Burn-Up e Burn-Down Chart, o Cumulative Flow Diagrams).
+Ci preme sottolineare che questo approccio non è da considerarsi limitante per chi non lavora strettamente 'a progetti', poiché i concetti stessi di progetto e epica possono essere per molti aspetti sovrapposti. 
+
+### Sprint Backlog
+Lo Sprint Backlog è un artefatto la cui visibilità e gestione è di responsabilità del dev team ed è composto da due elementi:
+- una lista di item selezionati dalla testa del Product Backlog, che equivale ad un commitment del team sulle funzionalità che svilupperanno nello Sprint (ovvero l'incremento di prodotto)
+- un piano per portare ottenere questo incremento di prodotto
+
+Lo Sprint Backlog viene formalizzato durante l'evento di Sprint Planning che, come detto precedentemente, ha come ulteriore output lo Sprint Goal.
+
+In testa allo Sprint Backlog, inoltre, viene posizionato un item che identifica l'azione di improvement identificata come output della retrospettiva.
+
+Durante lo Sprint, lo Sprint Backlog (item e piano) viene aggiornato e modificato dal dev team in base alle attività concluse dal team e alle informazioni che emergono lavorando sul backlog stesso: l'obiettivo rimane quello di ottimizzare gli sforzi del team per raggiungere lo Sprint Goal.
+Mantenere questo backlog visibile e trasparente è fondamentale per mantenere tutti gli stakeholder (PO in primis) aggiornati sull'andamento dello Sprint.
+
+### Increment
+Il Product Increment è composto da tutti gli elementi del backlog completati durante lo Sprint e gli Sprint precedenti ed ha una principale caratteristica: deve essere utilizzabile dagli utenti del prodotto; ciò implica che ogni elemento che esce da uno Sprint deve rispettare delle condizioni concordate con gli stakeholder (principalmente tramite i requisiti durante i meeting di refinement) e con il Product Owner (attraverso un documento formale, costantemente aggiornato, che censisce le caratteristiche che il Product Increment deve avere per essere accettato e che viene solitamente chiamato 'Definition  of Done').
 
 ## I Valori di Scrum
- 
+Il 3-5-3 di Scrum (3 Ruoli, 5 Eventi, 3 Artefatti), che abbiamo appena descritto, si regge sul rispetto delle regole del framework e sulla maturità dello Scrum Team, che il framework stesso descrive secondo cinque valori principali:  
+* Impegno
+* Coraggio
+* Focus
+* Apertura
+* Rispetto
+
+Questi valori, in uno Scrum Team, permettono di esaltare i pilastri di Scrum (Trasparenza, Ispezione e Adattamento) e ottenere il massimo tramite l'auto-organizzazione e la tensione sana delle responsabilità, rispettando ruoli, eventi e artefatti.  
+Come facilmente comprensibile e descritto all'inizio di questa sezione, Scrum è un framework semplice da insegnare, ma complesso da implementare e richiede un'elevata maturità dello Scrum Team.
