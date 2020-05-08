@@ -27,7 +27,7 @@ Scrum prevede quattro eventi nei quali viene implementata un'azione di inspect a
 
 ## Scrum Team
 Scrum si basa sul concetto di team per implementare pratiche e processi organizzativi atti a massimizzare l'efficacia in un contesto complesso: sappiamo che l'unica costante è il cambiamento ed in questa costante possiamo fondare le basi del nostro processo; è quindi necessario avere un sistema resiliente ed efficace e, al contempo, mantenere la trasparenza necessaria per potersi prontamente adattare al cambiamento.
-Partiamo da questi presupposti per descrivere i ruoli di Scrum:
+Partiamo da quanto sopra come presupposto e descriviamo di seguito i ruoli di Scrum:
 * il Product Owner (PO): vogliamo consegnare un prodotto di valore, dove il valore è valutato dal cliente, perciò necessitiamo di qualcuno (il PO) che conosca il mercato, sappia interpretare e valutare le necessità dei clienti in modo da massimizzare l'efficacia del team. Il PO è tipicamente un business man, sa cosa va fatto, ma non sa come; esso deve priorizzare le richieste del mercato e, per questo, il PO è una singola persona e non un comitato. Per quanto detto, fra le responsabilità del PO ci sono le seguenti attività:
  * Esprimere chiaramente (per gli stakeholder e per il team) e ordinare gli item del backlog, al fine di massimizzare il valore del team di sviluppo.
  * Assicurarsi che il Product Backlog sia visibile e trasparente a tutti.
